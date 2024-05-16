@@ -97,7 +97,7 @@ Gerudo 2:
   - _Woman<Babi>
 
   - outside courtyard, use the boxes for bullet-time
-  - WB S> to .place(Sand-Seal Rally):
+  - WB .S to .place(Sand-Seal Rally):
       movements:
         - to: [-3878.1875, 2889.0625]
   - _Woman<Tali + Shabonne>:

@@ -32,8 +32,8 @@ with open('translations.csv', 'r') as translation_file:
         print(f'Column "en" not found in CSV file.')
         exit(1)
     
+    print (f'Processing {args.ColumnName}')
     
-        
     for row in reader:
       source_index = headers.index('en')
       column_index = headers.index(args.ColumnName)
@@ -41,12 +41,12 @@ with open('translations.csv', 'r') as translation_file:
       source = row[source_index]
       dest = row[column_index]
               
-      print(f'Processing {source} -> {dest}')
+    #   print(f'Processing {source} -> {dest}')
       
       for route_file in route_files:
           with open(route_file, 'r') as file:
               
-              print(f'Processing {route_file}')
+            #   print(f'Processing {route_file}')
               
               subprocess.run(['perl', '-i', '-pe', f's/(?<!-){source}/{dest}/g', route_file])
               
