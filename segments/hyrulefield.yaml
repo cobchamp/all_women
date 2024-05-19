@@ -48,12 +48,12 @@ Hyrule Field:
   - _Woman<Parcy>:
       coord: [345.00, 1091.50]
 
-  - WB south to stump korok and BLSS to .place(Lake Hylia):
-      notes: follow river than steer west above the bridge before you get to the lake - this BLSS does not have clearance past bridge of hylia. this is tricky to steer through here
+  - WB south to Owlan Bridge and BLSS to .place(Lake Hylia):
+      notes: go around the right side of Proxim bridge (near Bosh Kala) and then it's a straight slide to Mei following the river
       movements:
-        - to: [295, 1202]
-        - to: [59, 2033]
-        - to: [-209, 2247]
+        - to: [310, 1268.5]
+        - to: [126.5, 1600.5]
+        - to: [39, 2154.5]
 
   - _Woman<Mei>:
       comment: zora in the lake
