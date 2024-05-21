@@ -40,7 +40,10 @@ Gerudo 2:
         - talk on shop prompt
         - ignore women in the street here, they were in the bar
       coord: [-3819.875, 2925.25]
-  - Around the corner and enter .place(door on right)
+  - _Woman::Shopkeeper<Saula, Clothing Stand>:
+      notes: talk on shop prompt
+      coord: [-3802.375, 2902]
+  - down the sideroad, enter .place(door on right)
   - _Woman<Risa>:
       comment: talking to a doll
       coord: [-3809.375, 2933.25]
@@ -60,12 +63,7 @@ Gerudo 2:
       comment: sweeping in the seal pen or sleeping in the bed (room on the left)
       coord: [-3773.5, 2916.375]
 
-  - back to the .place(main square)
-  - _Woman::Shopkeeper<Saula, Clothing Stand>:
-      notes: talk on shop prompt
-      coord: [-3802.375, 2902]
-
-  - WB or just run and climb to the .place(palace upper level)
+  - WB to the .place(palace upper level)
   - _Woman<Bertri>:
       comment: guard at upper left doorway
       coord: [-3862.125, 2961.125]
