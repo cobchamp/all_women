@@ -61,10 +61,10 @@
 #
 # Progress Tarrey Town (Set Night for Gerudo 1)
 # Half of Gerudo Town, Start Vah Naboris
-- use: ./segments/gerudo1.yaml # green
+- use: ./segments/gerudo.yaml # green
 
 # BTBs to Yiga hideout, fight Kohga
-- use: ./segments/kohga.yaml # green
+# - use: ./segments/kohga.yaml # green
 
 #
 # Gerudo 2 Branch
@@ -72,7 +72,7 @@
 # Finish Gerudo Town (Should be Morning)
 # Finish the last few things in the desert
 # End branch at Naboris
-- use: ./segments/gerudo2.yaml # blue
+# - use: ./segments/gerudo2.yaml # blue
 
 #
 # Faron Branch

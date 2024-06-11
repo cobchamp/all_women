@@ -33,8 +33,8 @@ Kakariko:
   - BTB and unequip shield to get height:
       notes:
         - .link([BTB Reference]https://youtu.be/Ki-nt715kZQ)
-        - my visual cue on where to do the cryo block is right beside the bomb barrel; since the bokos dont crowd you as much and you can focus on this guy in particular.
-        - slightly delayed shield jump, early bullet time, first frame bow unequip for maximum height, wait a second til you're over the water then unequip shield, and you should have enough height to get to this ore deposit for the BLSS
+        - make the cryo block right beside the bomb barrel
+        - slightly delayed shield jump, early bullet time, first frame bow unequip for maximum height, wait a second til you're over the water then mash B to put away shield
   - BLSS to Kakariko:
       comment: use ore deposit for step-up
       notes: 4pm - 7pm
@@ -48,8 +48,7 @@ Kakariko:
   - _Material<Fairy,1>
   - _Material<Blue Nightshade,3>
   - _Material<Endura Carrot,1>
-  - WB to shrine, get an extra carrot/fairy if you need health:
-      notes: you have ragdoll from the shield unequip BTB, so either flop on your shield or quick fix
+  - WB to shrine, get an extra carrot/fairy if you need health
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
@@ -61,6 +60,7 @@ Kakariko:
       coord: [1772.75, 983]
   - _Woman::Child<Cottla>:
       comment: at the tables by cooking pot
+      notes: if you are early (before 4pm) she will be running around the village, if you are late (after 7pm) both koko and cottla will be in bed (house next to chicken guy's house)
       coord: [1789.875, 1017.625]
   - _Woman::Child<Koko>:
       comment: at the cooking pot

@@ -15,27 +15,39 @@ Kara Kara Bazaar:
   - WB + midair west to decayed guardian:
       coord: [-1225.5, 3747]
 
-  - BLSS to .place(Great Skeleton):
+  - BLSS to .place(Misae Suma):
       comment: straight west
-      coord: [-4860, 3788]
+      coord: [-2966, 3773]
+  - _Woman<Pokki>
+  - .todo(BLSS to Gerudo Great Skeleton)
   - _Woman::Special<Tera>:
       comment: pay the great fairy
       coord: [-4860, 3788]
 
-  - BLSS to .place(Ice House):
-      comment: use the edge of the great fairy's flower thing to step-up. steer northeast
-      movements:
-        - to: [-3740, 2280]
-  - _Woman<Anche>:
-      coord: [-3740, 2280]
+  - BLSS to .place(outpost)
+  - _Woman<Sudrey>:
+      comment: inside outpost
+      coord: [-3433.5, 3121.75]
 
-  - WB to .place(Daqo Chisay Shrine):
+  - WB W to .place(Sand-Seal Rally)
+  - _Woman<Tali + Shabonne>:
+      comment: talk to Tali (afro) for engaging 2 NPCs at once
+      coord: [-3760, 3112]
+      vars:
+        women: .add(1) # 1+1
+        segment-women: .add(2)
+
+  - WB .N to .place(Daqo Chisay Shrine):
       notes: there isn't a lot to WB from, i just surf down the slope and use the ruins
   - Daqo Chisay:
       icon: shrine
       comment: Activate shrine warp
       coord: [-3814, 2819]
   - Talk to the nerd outside the shrine
+  - _Woman<Dorrah>:
+      comment: 2 guards
+      coord: [-3786.25, 2866.5]
+  - _Woman<Merina>
   - Ignore the seal lady here (you will run right past her later when doing Gerudo 2)
   - Grab a Sand Seal:
       comment: sand seal recommended on this road due to stopping along the flat desert
