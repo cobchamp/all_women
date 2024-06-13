@@ -93,6 +93,7 @@ Kara Kara Bazaar:
       coord: [-3241, 2522.5]
 
   - WBs to .place(Gerudo Canyon Stable)
+  - .important(Make night for Gerudo)
   - Sesami:
       icon: marker
       comment: talk to for side quest
@@ -116,7 +117,6 @@ Kara Kara Bazaar:
       coord: [-1451.55, 1250.47]
   - _Woman::Child<Haite>
   - _Woman<Myti>
-  - .important(Make night for Gerudo 1)
   - _Woman<Aliza>:
       comment: under tree, 'my hero' lady
       coord: [-1400.00, 1280.00]
