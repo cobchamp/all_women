@@ -19,12 +19,13 @@ Kara Kara Bazaar:
       comment: straight west
       coord: [-2966, 3773]
   - _Woman<Pokki>
-  - .todo(BLSS to Gerudo Great Skeleton)
+  - ? WB up to korok circle and step-up on nearby rocks for BLSS to .place(Geurdo Great Skeleton2)
+    : coord: [-3033.125, 3754.5]
   - _Woman::Special<Tera>:
       comment: pay the great fairy
       coord: [-4860, 3788]
 
-  - BLSS to .place(outpost)
+  - WB east and step-up on bone finger for BLSS to .place(outpost)
   - _Woman<Sudrey>:
       comment: inside outpost
       coord: [-3433.5, 3121.75]

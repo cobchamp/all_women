@@ -26,10 +26,9 @@ Gerudo:
   - _Woman<Marta>
   - _Woman<Babi>
 
-  - _Woman::Shopkeeper<Kohm, Seal Rental>:
-      coord: [-3902.875, 2882.875]
-  - _Woman<Laine>:
-      comment: guard outside
+  - _Woman<Risa>:
+      coord: [-3890.75, 2934.5]
+      comment: in the school
 
   - enter the .place(House next to bar):
       coord: [-3874.75, 2876.125]
@@ -58,9 +57,8 @@ Gerudo:
   - _Woman::Shopkeeper<Danda, Arrow Stand>:
       notes: get dialog buying
       coord: [-3858, 2911.6875]
-  - Shopping:
-      icon: marker
   - Buy 10 ice arrows:
+      icon: marker
       comment: for 2 BTBs
   - _Woman::Child<Kalani>:
       comment: sleeping child
@@ -68,9 +66,16 @@ Gerudo:
   - _Woman::Child<Makure>:
       comment: sleeping child
   - up the steps to the .place(palace entrance)
+  - Climb wall
+  - _Woman<Katta>:
+      comment: guard at upper left doorway
+      coord: [-3882.875, 2941.125]
   - _Woman<Reeza>:
-      coord: [-3868.125, 2939.5625]
       comment: right guard
+      movements:
+        - to: [-3865, 2943.25]
+          warp: true
+        - to: [-3868.125, 2939.5625]
   - _Woman<Malena>:
       comment: talking to right guard (might be walking to inn or sleeping in inn)
   - _Woman<Ploka>:
@@ -78,42 +83,17 @@ Gerudo:
       comment: left guard
   - _Woman<Traysi>:
       comment: talking to left guard
-  - enter the .place(palace):
-      notes: forced dialog
-  - _Woman::Special<Riju + Buliara>:
-      comment: Main Quest dialog
-      coord: [-3889.9375, 2969.1875]
-      vars:
-        women: .add(1) # 1+1
-        segment-women: .add(2)
-  - _Woman<Katta>:
-      comment: guard at upper left doorway
-      coord: [-3882.875, 2941.125]
-  - _Woman<Bertri>:
-      comment: guard at upper right doorway
-      coord: [-3862.125, 2961.125]
-  - _Woman<Padda>:
-      comment: south courtyard with Patricia (seal)
-      coord: [-3848.875, 2987.125]
   - _Woman<Pasha>:
-      notes: 4 women inside school
-      coord: [-3879.75, 2983.5]
+      notes: 3 women inside house by cooking pot
+      coord: [-3814.25, 2954]
   - _Woman<Dina>
   - _Woman<Ashai>
-  - _Woman<Risa>
-  - WB <<E to .place(main square)
   - _Woman::Shopkeeper<Spera, Grain Stand>:
       notes: talk on shop prompt
       coord: [-3821.625, 2937.375]
   - _Woman::Shopkeeper<Ardin, Mushroom Stand>:
-      notes:
-        - talk on shop prompt
-        - ignore women in the street here, they were in the bar
-      coord: [-3819.875, 2925.25]
-  - _Woman::Shopkeeper<Saula, Clothing Stand>:
       notes: talk on shop prompt
-      coord: [-3802.375, 2902]
-
+      coord: [-3819.875, 2925.25]
   - .place(Secret club)
   - _Woman::Shopkeeper<Greta, Gerudo Secret Club>:
       notes: no need to enter, just talk to the door
@@ -126,9 +106,14 @@ Gerudo:
       coord: [-3755.25, 2952.25]
   - _Woman::Shopkeeper<Frelly, Seal Rental>:
       coord: [-3757.75, 2938.875]
+      notes: .todo(confirm she's here?)
   - _Woman<Essa>:
       comment: sweeping in the seal pen or sleeping in the bed (room on the left)
       coord: [-3773.5, 2916.375]
+
+  - _Woman::Shopkeeper<Saula, Clothing Stand>:
+      notes: talk on shop prompt
+      coord: [-3802.375, 2902]
   - _Woman<Fegran>:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
@@ -157,6 +142,8 @@ Gerudo:
   - _Woman<Nellie>:
       comment: standing across bar with Pritana
   - _Woman<Pritana>
+  - _Woman<Jules>:
+      comment: hylian in bar
   - _Woman<Deltan>:
       comment: sad drunk
   - _Woman<Yaido + Sumati + Pyra>:
@@ -164,17 +151,45 @@ Gerudo:
       vars:
         women: .add(2) # 1+2
         segment-women: .add(3)
-  - _Woman<Jules>:
-      comment: hylian in bar
+  - WB southeast to .place(south courtyard):
+      color: honeydew
+      coord: [-3848.875, 2987.125]
+  - _Woman<Padda>:
+      comment: south courtyard with Patricia (seal)
+      color: lightgreen
+      coord: [-3848.875, 2987.125]
+  - enter the .place(palace):
+      notes: forced dialog
+  - _Woman::Special<Riju + Buliara>:
+      comment: Main Quest dialog
+      coord: [-3889.9375, 2969.1875]
+      vars:
+        women: .add(1) # 1+1
+        segment-women: .add(2)
+  - _Woman<Bertri>:
+      comment: guard at upper right doorway
+      coord: [-3862.125, 2961.125]
 
-  - BLSS to .place(Ice House):
-      comment: use the edge of the great fairy's flower thing to step-up. steer northeast
+  - low square first windbomb to west entrance
+  - _Woman<Laine>:
+      comment: guard outside
+      color: honeydew
+      movements:
+        - to: [-3865, 2943.25]
+          warp: true
+        - to: [-3914.5, 2874.375]
+  - _Woman::Shopkeeper<Kohm, Seal Rental>:
+      color: lightgreen
+      coord: [-3902.875, 2882.875]
+
+  - WB superlaunch to .place(Ice House):
+      comment: aim at gerudo highlands tower and do a slight turn with a superlaunch
       movements:
         - to: [-3740, 2280]
   - _Woman<Anche>:
       coord: [-3740, 2280]
 
-  - WB super southwest
+  - WB southwest
 
   - Boko BTB -> Moblin BTB:
       notes: .link([See BTB]https://www.twitch.tv/videos/1623251015)
