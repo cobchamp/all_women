@@ -1,11 +1,10 @@
 Gerudo:
   - Warp to Daqo Chisay:
       icon: shrine
+      notes: should be about 11pm
       movements:
         - to: [-3814, 2819]
           warp: true
-  - .todo(need to confirm this branch actually works):
-      banner: true
 
   - WB south to palace upper left doorway:
       color: honeydew
@@ -20,8 +19,6 @@ Gerudo:
         - to: [-3865, 2943.25]
           warp: true
         - to: [-3868.125, 2939.5625]
-  - _Woman<Malena>:
-      comment: talking to right guard (might be walking to inn or sleeping in inn)
   - _Woman<Ploka>:
       coord: [-3861.8125, 2945.125]
       comment: left guard
@@ -60,8 +57,9 @@ Gerudo:
       notes: talk on shop prompt
       coord: [-3819.875, 2925.25]
   - _Woman<Nali>:
-      comment: wandering in the main square
-      coord: [-3842.625, 2915.875]
+      comment: in the center of the square by the Goron
+      notes: if she isn't here (after 12pm)
+      coord: [-3842.125, 2920.375]
   - .place(arrow shop)
   - _Woman::Child<Kalani>:
       comment: sleeping child
@@ -84,6 +82,8 @@ Gerudo:
   - enter the .place(Inn):
       coord: [-3854.25, 2897.875]
   - _Woman::Shopkeeper<Romah, Hotel Oasis>
+  - _Woman<Malena>:
+      comment: sleeping in a bed
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
   - exit Inn and go across street
@@ -100,9 +100,8 @@ Gerudo:
       notes: 8 in the bar
   - _Woman<Furosa>:
       comment: barkeeper
-  - _Woman<Nellie>:
+  - _Woman<Pritana>:
       comment: standing across bar with Pritana
-  - _Woman<Pritana>
   - _Woman<Jules>:
       comment: hylian in bar
   - _Woman<Deltan>:
@@ -125,6 +124,8 @@ Gerudo:
       coord: [-3822.75, 2877.375]
   - _Woman::Shopkeeper<Lorn, Fruit Stand>:
       notes: talk on shop prompt
+  - _Woman<Nellie>:
+      comment: standing by fruit stand
   - _Woman<Fegran>:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
@@ -143,6 +144,10 @@ Gerudo:
   - _Woman<Muava>:
       coord: [-3770.25, 2945.75]
 
+  - _Woman<Risa>:
+      coord: [-3806.25, 2938.25]
+      comment: in the house down the street, talking to a doll
+
   - .place(Secret club)
   - _Woman::Shopkeeper<Greta, Gerudo Secret Club>:
       notes: no need to enter, just talk to the door
@@ -159,9 +164,12 @@ Gerudo:
   - _Woman<Teake>:
       comment: captain
       coord: [-3923.25, 2939.75]
-  - _Woman<Liana>:
-      comment: group of 3 women in middle
-      coord: [-3910.5625, 2928.4375]
+  - _Woman<Liana + Leena + Kotta>:
+      comment: talk to group of 3 women in middle via their commander
+      coord: [-3911.875, 2930.125]
+      vars:
+        women: .add(2) # 1+2
+        segment-women: .add(3)
   - _Woman<Leena>
   - _Woman<Kotta>
   - _Woman<Smaude>:
@@ -170,16 +178,16 @@ Gerudo:
   - _Woman<Marta>
   - _Woman<Babi>
 
-  - _Woman<Risa>:
-      coord: [-3890.75, 2934.5]
-      comment: in the school
+  - ? if you got to Gerudo late, Nali, who would have been in the main square, is asleep in a bed in the house on the right on your way to the Seal Rental
+    : banner: true
+      coord: [-3885.625, 2903.625]
 
+  - _Woman::Shopkeeper<Kohm, Seal Rental>:
+      coord: [-3902.875, 2882.875]
   - _Woman<Laine>:
       comment: guard outside
       movements:
         - to: [-3914.5, 2874.375]
-  - _Woman::Shopkeeper<Kohm, Seal Rental>:
-      coord: [-3902.875, 2882.875]
 
   - WB superlaunch to .place(Ice House):
       comment: aim at gerudo highlands tower and do a slight turn with a superlaunch
