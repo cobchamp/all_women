@@ -1,14 +1,16 @@
 Gerudo:
   - Warp to Daqo Chisay:
       icon: shrine
-      color: lightgreen
       movements:
         - to: [-3814, 2819]
           warp: true
   - .todo(need to confirm this branch actually works):
       banner: true
-  - WB SW to .place(guard's courtyard)
+  - WB SW to .place(guard's courtyard):
+      color: honeydew
+      coord: [-3914, 2955]
   - _Woman<Calyban>:
+      color: lightgreen
       comment: eating melon
       coord: [-3914, 2955]
   - drop down into .place(guard's courtyard)
