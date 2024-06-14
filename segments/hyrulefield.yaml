@@ -40,10 +40,7 @@ Hyrule Field:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
 
-  - WB north to tree, use stump for step-up to BLSS to Benny's hill:
-      notes:
-        - be quick because these Lizalfos are annoying
-        - aim for the road between the hills and then steer west
+  - BLSS from side of well, steer west around mountains:
       movements:
         - to: [320, -760]
   - _Woman<Benny>:
