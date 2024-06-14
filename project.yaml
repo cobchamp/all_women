@@ -22,12 +22,23 @@ config:
       shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
       tower: https://icons.pistonite.org/icon/location.tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
       woman: https://icons.pistonite.org/icon/character.zelda.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+      zora-woman: https://icons.pistonite.org/icon/character.mipha.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+      gerudo-woman: https://icons.pistonite.org/icon/character.urbosa.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+      rito-woman: https://icons.pistonite.org/icon/character.revali.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
       road-woman: https://icons.pistonite.org/icon/character.zelda.triangle.69a2d5.ffffb5.8c5e28.fdfdfd.69a2d5.c1fefe.png
+      road-gerudo-woman: https://icons.pistonite.org/icon/character.urbosa.triangle.69a2d5.ffffb5.8c5e28.fdfdfd.69a2d5.c1fefe.png
       shopkeeper-woman: https://icons.pistonite.org/icon/character.zelda.square.d57b69.fdfdfd.8c5e28.ffffb5.d57b69.fdfdfd.png
+      shopkeeper-gerudo-woman: https://icons.pistonite.org/icon/character.urbosa.square.d57b69.fdfdfd.8c5e28.ffffb5.d57b69.fdfdfd.png
+      shopkeeper-rito-woman: https://icons.pistonite.org/icon/character.revali.square.d57b69.fdfdfd.8c5e28.ffffb5.d57b69.fdfdfd.png
       special-woman: https://icons.pistonite.org/icon/character.zelda.circle.f24c99.ffc0fa.8c5e28.ffffb5.f24c99.ffc0fa.png
+      princeguide-woman: https://icons.pistonite.org/icon/character.mipha.circle.f24c99.ffc0fa.8c5e28.ffffb5.f24c99.ffc0fa.png
+      special-gerudo-woman: https://icons.pistonite.org/icon/character.urbosa.circle.f24c99.ffc0fa.8c5e28.ffffb5.f24c99.ffc0fa.png
       attacked-woman-minus: https://icons.pistonite.org/icon/character.zelda.minus.613b75.b96cf5.8c5e28.ffffb5.613b75.b96cf5.png
       attacked-woman-plus: https://icons.pistonite.org/icon/character.zelda.plus.613b75.b96cf5.8c5e28.ffffb5.613b75.b96cf5.png
       child-woman: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.8c5e28.ffffb5.d57b69.fec1d3.png
+      child-gerudo-woman: https://icons.pistonite.org/icon/character.urbosa.none.69a2d5.c1fefe.8c5e28.ffffb5.d57b69.fec1d3.png
+      child-zora-woman: https://icons.pistonite.org/icon/character.mipha.none.69a2d5.c1fefe.8c5e28.ffffb5.d57b69.fec1d3.png
+      child-rito-woman: https://icons.pistonite.org/icon/character.revali.none.69a2d5.c1fefe.8c5e28.ffffb5.d57b69.fec1d3.png
       material: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.cfa240.ffd700.69a2d5.c1fefe.png
       weapon: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
       king: https://icons.pistonite.org/icon/character.king.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
@@ -65,6 +76,12 @@ config:
           text: $(0)
           comment: say hi to the child
           icon: child-woman
+          counter: .var(women)
+          vars:
+            segment-women: .add(1)
+        PrinceGuide:
+          text: $(0)
+          icon: princeguide-woman
           counter: .var(women)
           vars:
             segment-women: .add(1)

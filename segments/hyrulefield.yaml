@@ -4,21 +4,25 @@ Hyrule Field:
   - _Woman<Gaile>:
       comment: outside stable
       coord: [2606, -1130]
-  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
+  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
+      icon: road-gerudo-woman
   - BLSS to .place(Soh Kofi)
-  - _Woman<Torfeau>:
+  - _Woman::PrinceGuide<Torfeau>:
       comment: outside shrine
       coord: [2246, -291.5]
   - WB southwest to signpost
-  - _Woman::Special<Douma>:
+  - _Woman::PrinceGuide<Douma>:
+      icon: special-woman
       comment: standing by the signpost
       coord: [2132, -216]
+  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
+      icon: road-gerudo-woman
   - WB S> to bridge
-  - _Woman<Tona>:
+  - _Woman::PrinceGuide<Tona>:
       comment: land on the bridge for area trigger
       coord: [2000, 20.5]
   - WB southwest superlaunch toward .place(Daka Tuss)
-  - _Woman<Tula>:
+  - _Woman::PrinceGuide<Tula>:
       comment: land on the rocks near the deep water, wait for her area trigger to load
       coord: [1682.25, 389.25]
   - ? WB west to .place(Gaponga Village Ruins) and BLSS along river to .place(Woodland Stable)
@@ -30,6 +34,7 @@ Hyrule Field:
   - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
   - _Woman::Road<Karsh, Woodland Stable, Gerudo>:
       coord: [1079.25, -1131.125]
+      icon: road-gerudo-woman
   - _Woman<Breen>:
       comment: horse customization
   - _Woman::Child<Shamae>:
@@ -64,6 +69,7 @@ Hyrule Field:
         - to: [39, 2154.5]
 
   - _Woman<Mei>:
+      icon: zora-woman
       comment: zora in the lake
       coord: [-229, 2575]
 

@@ -12,25 +12,32 @@ Zora:
   - west of the throne
   - _Woman::Child<Finley>:
       notes: at 5am she wakes up and will be in the inn
-  - _Woman::Child<Laruta>
+      icon: child-zora-woman
+  - _Woman::Child<Laruta>:
+      icon: child-zora-woman
   - drop down to main level
   - _Woman<Kodah>:
       comment: in the inn
       coord: [3297, -493]
+      icon: zora-woman
   - _Woman<Marot>:
       comment: in front of general store
       coord: [3323.25, -482.25]
+      icon: zora-woman
   - _Woman<Laflat>:
       comment: by the Mipha statue
       coord: [3304.5, -478]
+      icon: zora-woman
   - _Woman<Dunma>:
       comment: guard near entrance
       coord: [3283.25, -436.5]
+      icon: zora-woman
   - WB to east entrance:
       notes: careful on the railing
   - _Woman<Gaddison>:
       comment: guard at east entrance
       coord: [3475.25, -484.75]
+      icon: zora-woman
   - _Segment<Zora>
   - "":
       vars:

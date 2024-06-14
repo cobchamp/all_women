@@ -18,7 +18,8 @@ Kara Kara Bazaar:
   - BLSS to .place(Misae Suma):
       comment: straight west
       coord: [-2966, 3773]
-  - _Woman<Pokki>
+  - _Woman<Pokki>:
+      icon: gerudo-woman
   - ? WB up to korok circle and step-up on nearby rocks for BLSS to .place(Geurdo Great Skeleton2)
     : coord: [-3033.125, 3754.5]
   - _Woman::Special<Tera>:
@@ -29,11 +30,13 @@ Kara Kara Bazaar:
   - _Woman<Sudrey>:
       comment: inside outpost
       coord: [-3433.5, 3121.75]
+      icon: gerudo-woman
 
   - WB W to .place(Sand-Seal Rally)
   - _Woman<Tali + Shabonne>:
       comment: talk to Tali (afro) for engaging 2 NPCs at once
       coord: [-3760, 3112]
+      icon: gerudo-woman
       vars:
         women: .add(1) # 1+1
         segment-women: .add(2)
@@ -48,7 +51,9 @@ Kara Kara Bazaar:
   - _Woman<Dorrah>:
       comment: 2 guards
       coord: [-3786.25, 2866.5]
-  - _Woman<Merina>
+      icon: gerudo-woman
+  - _Woman<Merina>:
+      icon: gerudo-woman
   - Ignore the seal lady here (you will run right past her later when doing Gerudo 2)
   - Grab a Sand Seal:
       comment: sand seal recommended on this road due to stopping along the flat desert
@@ -56,30 +61,39 @@ Kara Kara Bazaar:
       icon: marker
       coord: [-3728.5, 2870.5]
 
-  - _Woman::Road::Watch<Lukan, Gerudo Town and Gerudo Canyon Stable, Gerudo>
+  - _Woman::Road::Watch<Lukan, Gerudo Town and Gerudo Canyon Stable, Gerudo>:
+      icon: road-gerudo-woman
 
   - "Road NPC info card: .link([Kyra]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
   - _Woman::Road<Kyra, Kara Kara and Gerudo Town, Gerudo usually running>:
       comment: ride the sand-seal back and forth along the road until she appears
       notes:
-        - unlike all the other Road NPCs just use a sand seal for Kyra
+        - unlike all the other Road NPCs just use a sand seal for Kyra:
+      icon: road-gerudo-woman
   - _Woman::Special<Rhondson>:
       notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
       comment: send to tarrey town
       coord: [-3269, 2583]
+      icon: special-gerudo-woman
   - _Woman<Ripp>:
       comment: guard, walking around the pond, starts at the south end by the building
       coord: [-3245.375, 2580.5]
+      icon: gerudo-woman
   - Enter building
   - _Woman::Shopkeeper<Kachoo, Inn>:
       coord: [-3267.5, 2610.5]
-  - _Woman::Shopkeeper<Shaillu>
-  - _Woman<Konora>
-  - _Woman::Road::Watch<Calisa, Kara Kara Bazaar and Gerudo Canyon Stable, Gerudo>
+      icon: shopkeeper-gerudo-woman
+  - _Woman::Shopkeeper<Shaillu>:
+      icon: shopkeeper-gerudo-woman
+  - _Woman<Konora>:
+      icon: gerudo-woman
+  - ? _Woman::Road::Watch<Calisa, Kara Kara Bazaar and Gerudo Canyon Stable, Gerudo>
+    : icon: road-gerudo-woman
   - _Woman::Shopkeeper<Emri>:
       notes: talk on shop prompt
       comment: stall outside
       coord: [-3278, 2564.5]
+      icon: shopkeeper-gerudo-woman
   - WB south to the top of the building:
       coord: [-3280.5, 2553.5]
       notes: detonate stray square bomb
@@ -91,6 +105,7 @@ Kara Kara Bazaar:
       notes: talk on shop prompt
       comment: other stall around pond
       coord: [-3241, 2522.5]
+      icon: shopkeeper-gerudo-woman
 
   - WBs to .place(Gerudo Canyon Stable)
   - .important(Make night for Gerudo)
@@ -101,8 +116,10 @@ Kara Kara Bazaar:
   - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
   - _Woman::Road<Calisa, Gerudo Canyon Stable, Gerudo>:
       coord: [-2785, 2247.5]
+      icon: road-gerudo-woman
   - _Woman::Road<Lukan, Gerudo Canyon Stable, Gerudo>:
       notes: farm spawns for Lukan and Calisa in the same location
+      icon: road-gerudo-woman
   - high WBs north and east into valley
   - _Woman::Special<Flaxel>:
       coord: [-2163, 1700]

@@ -13,15 +13,18 @@ Gerudo:
       color: lightgreen
       comment: guard at upper left doorway
       coord: [-3882.875, 2941.125]
+      icon: gerudo-woman
   - _Woman<Reeza>:
       comment: right guard
       movements:
         - to: [-3865, 2943.25]
           warp: true
         - to: [-3868.125, 2939.5625]
+      icon: gerudo-woman
   - _Woman<Ploka>:
       coord: [-3861.8125, 2945.125]
       comment: left guard
+      icon: gerudo-woman
   - _Woman<Traysi>:
       comment: talking to left guard
   - enter the .place(palace):
@@ -29,6 +32,7 @@ Gerudo:
   - _Woman::Special<Riju + Buliara>:
       comment: Main Quest dialog
       coord: [-3889.9375, 2969.1875]
+      icon: special-gerudo-woman
       vars:
         women: .add(1) # 1+1
         segment-women: .add(2)
@@ -37,10 +41,12 @@ Gerudo:
       comment: south courtyard with Patricia (seal)
       color: lightgreen
       coord: [-3848.875, 2987.125]
+      icon: gerudo-woman
 
   - _Woman<Bertri>:
       comment: guard at upper right doorway
       coord: [-3862.125, 2961.125]
+      icon: gerudo-woman
 
   - _Woman<Pasha>:
       notes: 3 women inside house by cooking pot
@@ -48,111 +54,144 @@ Gerudo:
         - to: [-3865, 2943.25]
           warp: true
         - to: [-3814.25, 2954]
-  - _Woman<Dina>
-  - _Woman<Ashai>
+      icon: gerudo-woman
+  - _Woman<Dina>:
+      icon: gerudo-woman
+  - _Woman<Ashai>:
+      icon: gerudo-woman
   - _Woman::Shopkeeper<Spera, Grain Stand>:
       notes: talk on shop prompt
       coord: [-3821.625, 2937.375]
+      icon: shopkeeper-gerudo-woman
   - _Woman::Shopkeeper<Ardin, Mushroom Stand>:
       notes: talk on shop prompt
       coord: [-3819.875, 2925.25]
+      icon: shopkeeper-gerudo-woman
   - _Woman<Nali>:
       comment: in the center of the square by the Goron
       notes: if she isn't here (after 12am) read note after guards courtyard
       coord: [-3842.125, 2920.375]
+      icon: gerudo-woman
   - .place(arrow shop)
   - _Woman::Child<Kalani>:
       comment: sleeping child
       notes: 2 children sleeping in stall
       coord: [-3858, 2911.6875]
+      icon: child-gerudo-woman
   - _Woman::Child<Makure>:
       comment: sleeping child
+      icon: child-gerudo-woman
   - _Woman::Shopkeeper<Danda, Arrow Stand>:
       notes: get dialog buying
+      icon: shopkeeper-gerudo-woman
   - Buy 10 ice arrows:
       icon: marker
       comment: for 2 BTBs
   - _Woman<Frita>:
       comment: Rito
+      icon: rito-woman
   - _Woman::Shopkeeper<Estan, Meat Stand>:
       coord: [-3847.1875, 2903.1875]
+      icon: shopkeeper-gerudo-woman
   - _Woman<Olu>:
       coord: [-3839.375, 2893.875]
       comment: outside inn
+      icon: gerudo-woman
   - enter the .place(Inn):
       coord: [-3854.25, 2897.875]
-  - _Woman::Shopkeeper<Romah, Hotel Oasis>
+  - _Woman::Shopkeeper<Romah, Hotel Oasis>:
+      icon: shopkeeper-gerudo-woman
   - _Woman<Malena>:
       comment: sleeping in a bed
+      icon: gerudo-woman
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
   - exit Inn and go across street
   - enter the .place(House next to bar):
       coord: [-3874.75, 2876.125]
-  - _Woman::Child<Pearle>
+  - _Woman::Child<Pearle>:
+      icon: child-gerudo-woman
   - _Woman<Rotana>:
       comment: shrinequest npc at bookshelf in the same house
+      icon: gerudo-woman
   - _Woman<Rima>:
       coord: [-3857, 2882.25]
       comment: under tent outside
+      icon: gerudo-woman
   - climb wall next to sign into the .place(bar):
       coord: [-3856.25, 2849.75]
       notes: 7 in the bar
   - _Woman<Deltan>:
       comment: sad drunk
+      icon: gerudo-woman
   - _Woman<Yaido + Sumati + Pyra>:
       comment: three women talking about a password
+      icon: gerudo-woman
       vars:
         women: .add(2) # 1+2
         segment-women: .add(3)
   - _Woman<Jules>:
       comment: hylian in bar
-  - _Woman<Furosa>:
+  - _Woman::Shopkeeper<Furosa>:
       comment: barkeeper
+      icon: shopkeeper-gerudo-woman
   - _Woman<Pritana>:
       comment: standing across bar
+      icon: gerudo-woman
   - _Woman<Isha>:
       comment: sidequest npc outside jewelry shop
       coord: [-3833.5, 2883.75]
+      icon: gerudo-woman
   - enter jewelery shop
   - _Woman<Cara>:
       notes: you cannot jump over the counter
       comment: back corner of jewelry shop
       coord: [-3833.375, 2872.625]
+      icon: gerudo-woman
   - _Woman::Child<Dalia>:
       comment: child sleeping in stall
       coord: [-3822.75, 2877.375]
+      icon: child-gerudo-woman
   - _Woman::Shopkeeper<Lorn, Fruit Stand>:
       notes: talk on shop prompt
+      icon: shopkeeper-gerudo-woman
   - _Woman<Nellie>:
       comment: standing by fruit stand
+      icon: gerudo-woman
   - _Woman<Fegran>:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
+      icon: gerudo-woman
 
   - _Woman::Shopkeeper<Saula, Clothing Stand>:
       notes: talk on shop prompt
       coord: [-3802.375, 2902]
+      icon: shopkeeper-gerudo-woman
   - _Woman<Essa>:
       comment: in room on the right sleeping
       coord: [-3773.5, 2916.375]
+      icon: gerudo-woman
   - _Woman::Shopkeeper<Frelly, Seal Rental>:
       coord: [-3757.75, 2938.875]
+      icon: shopkeeper-gerudo-woman
   - _Woman<Lashley>:
       comment: guard
       coord: [-3755.25, 2952.25]
+      icon: gerudo-woman
   - _Woman<Muava>:
       coord: [-3770.25, 2945.75]
+      icon: gerudo-woman
 
   - _Woman<Risa>:
       coord: [-3806.25, 2938.25]
       comment: in the house down the street, talking to a doll
+      icon: gerudo-woman
 
   - .place(Secret club)
   - _Woman::Shopkeeper<Greta, Gerudo Secret Club>:
       notes: no need to enter, just talk to the door
       coord: [-3788.125, 2934.375]
-
+      icon: shopkeeper-gerudo-woman
   - WB southeast to .place(guard's courtyard):
       color: honeydew
       coord: [-3914, 2955]
@@ -160,21 +199,27 @@ Gerudo:
   - _Woman<Calyban>:
       color: lightgreen
       comment: eating melon
+      icon: gerudo-woman
   - drop down into .place(guard's courtyard)
   - _Woman<Teake>:
       comment: captain
       coord: [-3923.25, 2939.75]
+      icon: gerudo-woman
   - _Woman<Liana + Leena + Kotta>:
       comment: talk to group of 3 women in middle via their commander
       coord: [-3911.875, 2930.125]
+      icon: gerudo-woman
       vars:
         women: .add(2) # 1+2
         segment-women: .add(3)
   - _Woman<Smaude>:
       comment: three training together
       coord: [-3910.75, 2913.3125]
-  - _Woman<Marta>
-  - _Woman<Babi>
+      icon: gerudo-woman
+  - _Woman<Marta>:
+      icon: gerudo-woman
+  - _Woman<Babi>:
+      icon: gerudo-woman
 
   - ? if you got to Gerudo late, .important(Nali), who would have been in the main square, is asleep in a bed in the house on the right on your way to the Seal Rental
     : banner: true
@@ -182,10 +227,12 @@ Gerudo:
 
   - _Woman::Shopkeeper<Kohm, Seal Rental>:
       coord: [-3902.875, 2882.875]
+      icon: shopkeeper-gerudo-woman
   - _Woman<Laine>:
       comment: guard outside
       movements:
         - to: [-3914.5, 2874.375]
+      icon: gerudo-woman
 
   - WB superlaunch to .place(Ice House):
       comment: aim at gerudo highlands tower and do a slight turn with a superlaunch
@@ -193,6 +240,7 @@ Gerudo:
         - to: [-3740, 2280]
   - _Woman<Anche>:
       coord: [-3740, 2280]
+      icon: gerudo-woman
 
   - WB southwest
 
@@ -205,6 +253,7 @@ Gerudo:
   - Enter .place(Yiga Hideout)
   - _Woman<Barta>:
       coord: [-3626.61, 1388.09]
+      icon: gerudo-woman
 
   - _Segment<Gerudo>
   - "":

@@ -1,4 +1,7 @@
 Hebra:
+  - _Woman<Ariane>:
+      comment: inside stable on a chair
+      coord: [-3246, -1782]
   - climb up onto the roof
   - WB chain to .place(Selmie's Cabin):
       movements:

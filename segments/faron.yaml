@@ -46,6 +46,7 @@ Faron:
   - _Woman<Perda>:
       comment: Gerudo by the heart pond
       coord: [2591, 3526]
+      icon: gerudo-woman
   - WB east to .place(Lurelin Village)
   - _Woman<Kiana>:
       comment: side quest npc near cooking pots
@@ -56,6 +57,7 @@ Faron:
       coord: [2946.5, 3435.75]
   - _Woman<Flavi>:
       comment: sleeping in the inn
+      icon: gerudo-woman
   - _Woman::Shopkeeper<Mubs, General Store (Docks)>:
       coord: [2957.75, 3491.25]
       notes: talk on shop prompt

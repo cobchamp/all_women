@@ -44,44 +44,53 @@
     - _Woman<Laissa>:
         comment: purple bird sleeping
         coord: [-3635.125, -1791]
+        icon: rito-woman
     - _Woman<Bedoli>:
         comment: also sleeping
         coord: [-3587, -1798.5]
         notes: climb up the shelves, can reach her if you're standing on the plates
+        icon: rito-woman
     - _Woman::Child<Molli>:
         comment: little pink bird sleeping next door
+        icon: child-rito-woman
     - _Woman<Saki>:
         comment: pink bird from All Dungeons
         coord: [-3606.875, -1823.75]
+        icon: rito-woman
     - Drop down and Talk to Fyson:
         icon: marker
         coord: [-3594, -1821.375]
     - go to the .place(Inn)
     - _Woman::Shopkeeper<Cecili, Inn>:
         coord: [-3611.8125, -1858.1875]
+        icon: shopkeeper-rito-woman
     - _Woman<Juney>:
         comment: hylian woman, sleeping in the inn
     - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
         coord: [-3646.5, -1822.75]
+        icon: shopkeeper-rito-woman
     - _Woman::Child<Cree>:
         comment: little blue bird
         coord: [-3605.5, -1799.5]
+        icon: child-rito-woman
     - _Woman::Child<Kotts>:
         comment: little yellow bird
+        icon: child-rito-woman
     - _Woman::Child<Notts>:
         comment: little red bird
+        icon: child-rito-woman
     - _Woman::Child<Kheel>:
         comment: little red bird
+        icon: child-rito-woman
     - _Woman::Child<Genli>:
         comment: little green bird
+        icon: child-rito-woman
     - _Woman<Amali>:
         comment: green bird by cooking Pot
         coord: [-3589, -1804.75]
+        icon: rito-woman
 
     - WB to .place(Rito Village Stable)
-    - _Woman<Ariane>:
-        comment: inside on a chair
-        coord: [-3246, -1782]
 
     - _Segment<Rito>
     - "":

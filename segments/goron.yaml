@@ -18,6 +18,7 @@ Goron City:
   - _Woman<Ramella>:
       comment: sleeping in the inn
       coord: [1678, -2440]
+      icon: gerudo-woman
   - _Segment<Goron City>
   - "":
       vars:
