@@ -12,7 +12,7 @@ Goron City:
       icon: marker
       coord: [1656.63, -1968.53]
 
-  - WBs .todo(<E + N + N). to .place(Goron City):
+  - WBs NE + N. to .place(Goron City):
       notes: unequip or unignite bow before landing
       coord: [1561, -2246.5]
   - _Woman<Ramella>:

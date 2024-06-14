@@ -10,32 +10,22 @@ Zora:
   - BLSS to .place(Zora's Domain):
       notes: expecting to get here between midnight and 5am, if you're late read the note on Finley. if you're early you can find Tona up the steps after talking to Tula.
   - west of the throne
-  - _Woman<Tula>:
-      comment: red zora running around in circles
-      coord: [3300.875, -516.5]
-  - _Woman<Torfeau>:
-      comment: guard
-      coord: [3314.5, -548]
-  - _Woman<Tona>:
-      comment: 3 zora sleeping in one pond (other ponds contain boy zoras)
-      notes: try to avoid going in the water
-      coord: [3317.75, -528]
   - _Woman::Child<Finley>:
       notes: at 5am she wakes up and will be in the inn
   - _Woman::Child<Laruta>
-  - _Woman<Laflat>:
-      comment: east of sleeping children
-      coord: [3343, -515]
-  - glide down and run toward ZD entrance
-  - _Woman<Dunma>:
-      comment: guard near entrance
-      coord: [3283.25, -436.5]
+  - drop down to main level
   - _Woman<Kodah>:
-      comment: in front of the inn
+      comment: in the inn
       coord: [3297, -493]
   - _Woman<Marot>:
       comment: in front of general store
       coord: [3323.25, -482.25]
+  - _Woman<Laflat>:
+      comment: by the Mipha statue
+      coord: [3304.5, -478]
+  - _Woman<Dunma>:
+      comment: guard near entrance
+      coord: [3283.25, -436.5]
   - WB to east entrance:
       notes: careful on the railing
   - _Woman<Gaddison>:

@@ -1,7 +1,4 @@
 - Plateau:
-    - _Woman::Special<Zelda>:
-        color: grey
-        comment: she talks to you in your mind, we count that
     - Standard Plateau route:
         movements:
           - to: [-939, 1948]

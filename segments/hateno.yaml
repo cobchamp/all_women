@@ -57,12 +57,12 @@ Hateno:
       comment: walking on the bridge
       coord: [3476.5, 2139.5]
   - WB east
-  - _Woman<Ralera>:
-      comment: sitting under tree
-      coord: [3580.5, 2118.5]
   - _Woman<Koyin>:
       comment: by the farmhouse
       coord: [3622, 2096]
+  - _Woman<Ralera>:
+      comment: sitting under tree
+      coord: [3580.5, 2118.5]
   - WB W> back to .place(Ancient Furnace):
       icon: marker
       coord: [3436, 1978]

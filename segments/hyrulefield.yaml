@@ -5,36 +5,47 @@ Hyrule Field:
       comment: outside stable
       coord: [2606, -1130]
   - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
-  - BLSS to crossroad near Soh Kofi Shrine
+  - BLSS to .place(Soh Kofi)
+  - _Woman<Torfeau>:
+      comment: outside shrine
+      coord: [2246, -291.5]
+  - WB southwest to signpost
   - _Woman::Special<Douma>:
+      comment: standing by the signpost
       coord: [2132, -216]
-
-  - BLSS from rock along the road to .important(past) .place(Woodland Stable):
-      movements:
-        - to: [2112.75, -243]
+  - WB S> to bridge
+  - _Woman<Tona>:
+      comment: land on the bridge for area trigger
+      coord: [2000, 20.5]
+  - WB southwest superlaunch toward .place(Daka Tuss)
+  - _Woman<Tula>:
+      comment: land on the rocks near the deep water, wait for her area trigger to load
+      coord: [1682.25, 389.25]
+  - ? WB west to .place(Gaponga Village Ruins) and BLSS along river to .place(Woodland Stable)
+    : movements:
+        - to: [1554.75, 356.5]
+        - to: [1592, -332]
         - to: [1273, -694]
-        - to: [1018, -1038]
+
+  - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
+  - _Woman::Road<Karsh, Woodland Stable, Gerudo>:
+      coord: [1079.25, -1131.125]
+  - _Woman<Breen>:
+      comment: horse customization
+  - _Woman::Child<Shamae>:
+      comment: side quest little girl
+      coord: [1088, -1130]
 
   - _Woman::Attacked::Armed<Mina>:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
-  - build cryo block on mud pit and WB east
 
-  - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
-  - _Woman::Road<Karsh, Woodland Stable, Gerudo>
-  - _Woman::Child<Shamae>:
-      comment: side quest little girl
-      coord: [1088, -1130]
-  - _Woman<Breen>:
-      comment: horse customization
-      coord: [1079.25, -1131.125]
   - WB north to tree, use stump for step-up to BLSS to Benny's hill:
       notes:
         - be quick because these Lizalfos are annoying
         - aim for the road between the hills and then steer west
       movements:
-        - to: [1168.5, -1286]
-        - to: [1018, -452]
+        - to: [320, -760]
   - _Woman<Benny>:
       coord: [620.44, 77.41]
   - WB <S slight turn superlaunch to .place(Hila Rao Shrine island)
