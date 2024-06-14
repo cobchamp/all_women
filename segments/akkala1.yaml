@@ -10,7 +10,7 @@ Akkala 1:
   - WB to .place(East Akkala Stable)
   - ? _Woman::Road::Watch<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>
     : notes: we will try to force a spawn for Laroba later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
-      icon: road-gerudo-woman
+      icon-doc: road-gerudo-woman
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
   - _Woman<Aya>

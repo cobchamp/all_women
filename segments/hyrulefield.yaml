@@ -5,7 +5,7 @@ Hyrule Field:
       comment: outside stable
       coord: [2606, -1130]
   - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
-      icon: road-gerudo-woman
+      icon-doc: road-gerudo-woman
   - BLSS to .place(Soh Kofi)
   - _Woman::PrinceGuide<Torfeau>:
       comment: outside shrine
@@ -16,7 +16,7 @@ Hyrule Field:
       comment: standing by the signpost
       coord: [2132, -216]
   - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
-      icon: road-gerudo-woman
+      icon-doc: road-gerudo-woman
   - WB S> to bridge
   - _Woman::PrinceGuide<Tona>:
       comment: land on the bridge for area trigger

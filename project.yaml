@@ -54,6 +54,7 @@ config:
           Watch:
             text: Look for .road($(0)) - $(2)
             comment: on the road between .road($(1))
+            icon-doc: road-woman
         Road:
           text: .road($(0)) - $(2)
           comment: attempt to force spawn by saving and cycling reloads at $(1)
