@@ -40,13 +40,15 @@ Hyrule Field:
   - _Woman::Child<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]
+  - WB W> to .place(Rauru Settlement Ruins)
 
   - _Woman::Attacked::Armed<Mina>:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
 
-  - BLSS from side of well, steer west around mountains:
-      movements:
+  - ? Cryo shield jump over mud pit to get away from Bokos, and BLSS off ruins, steer west around mountains
+    : movements:
+        - to: [661, -1314]
         - to: [320, -760]
   - _Woman<Benny>:
       coord: [620.44, 77.41]
