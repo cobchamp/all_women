@@ -57,7 +57,6 @@ Greta
 Haite
 Harlow
 Hunnie
-Hylia
 Impa
 Isha
 Ivee
@@ -111,7 +110,6 @@ Mellie
 Merina
 Mija
 Mina
-Mipha
 Misa
 Molli
 Monari
@@ -184,9 +182,7 @@ Traysi
 Trissa
 Tula
 Uma
-Urbosa
 Vilia
 Yaido
 Yammo
-Zelda
 Zumi

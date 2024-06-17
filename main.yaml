@@ -44,6 +44,7 @@
 # Get Foothill stable, NPCs along the road to Woodland Stable
 # Magda, Riverside Stable, Outskirt Stable, along road to Lake Hylia
 # Branch ends at Mei in Lake Hylia
+- use: ./segments/wetlands.yaml # orange
 - use: ./segments/hyrulefield.yaml # orange
 
 #
@@ -94,6 +95,7 @@
 # Get ingredients for IST: speed food, fairy, wood
 # Get Tabantha Bridge Stable and Shae Loya Warp point
 # Get Rito Village
+- use: ./segments/akkala3.yaml # pink
 - use: ./segments/rito.yaml # pink
 
 # Progress Tarrey Town @ Fyson

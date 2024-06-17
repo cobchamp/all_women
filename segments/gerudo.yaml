@@ -6,14 +6,15 @@ Gerudo:
         - to: [-3814, 2819]
           warp: true
 
-  - WB south to palace upper left doorway:
+  - WB south to palace upper right doorway:
       color: honeydew
       coord: [-3882.875, 2941.125]
   - _Woman<Katta>:
       color: lightgreen
-      comment: guard at upper left doorway
+      comment: guard at upper right doorway
       coord: [-3882.875, 2941.125]
       icon: gerudo-woman
+  - .place(palace steps)
   - _Woman<Reeza>:
       comment: right guard
       movements:
@@ -36,9 +37,8 @@ Gerudo:
       vars:
         women: .add(1) # 1+1
         segment-women: .add(2)
-
+  - .place(Patricia (seal\) courtyard)
   - _Woman<Padda>:
-      comment: south courtyard with Patricia (seal)
       color: lightgreen
       coord: [-3848.875, 2987.125]
       icon: gerudo-woman
@@ -47,9 +47,9 @@ Gerudo:
       comment: guard at upper right doorway
       coord: [-3862.125, 2961.125]
       icon: gerudo-woman
-
+  - glide down and run to .place(room by the cooking pots)
   - _Woman<Pasha>:
-      notes: 3 women inside house by cooking pot
+      notes: 3 women inside
       movements:
         - to: [-3865, 2943.25]
           warp: true
@@ -59,6 +59,7 @@ Gerudo:
       icon: gerudo-woman
   - _Woman<Ashai>:
       icon: gerudo-woman
+  - go towards .place(main square)
   - _Woman::Shopkeeper<Spera, Grain Stand>:
       notes: talk on shop prompt
       coord: [-3821.625, 2937.375]
@@ -72,7 +73,6 @@ Gerudo:
       notes: if she isn't here (after 12am) read note after guards courtyard
       coord: [-3842.125, 2920.375]
       icon: gerudo-woman
-  - .place(arrow shop)
   - _Woman::Child<Kalani>:
       comment: sleeping child
       notes: 2 children sleeping in stall
@@ -97,6 +97,8 @@ Gerudo:
       coord: [-3839.375, 2893.875]
       comment: outside inn
       icon: gerudo-woman
+  - ? if you made good time, you may see Risa coming home from the school. if so, talk to her here and skip her later
+    : banner: true
   - enter the .place(Inn):
       coord: [-3854.25, 2897.875]
   - _Woman::Shopkeeper<Romah, Hotel Oasis>:
@@ -138,11 +140,11 @@ Gerudo:
   - _Woman<Pritana>:
       comment: standing across bar
       icon: gerudo-woman
+  - go towards .place(main square) again
   - _Woman<Isha>:
       comment: sidequest npc outside jewelry shop
       coord: [-3833.5, 2883.75]
       icon: gerudo-woman
-  - enter jewelery shop
   - _Woman<Cara>:
       notes: you cannot jump over the counter
       comment: back corner of jewelry shop
@@ -167,6 +169,7 @@ Gerudo:
       notes: talk on shop prompt
       coord: [-3802.375, 2902]
       icon: shopkeeper-gerudo-woman
+  - .place(seal rental)
   - _Woman<Essa>:
       comment: in room on the right sleeping
       coord: [-3773.5, 2916.375]
@@ -184,7 +187,7 @@ Gerudo:
 
   - _Woman<Risa>:
       coord: [-3806.25, 2938.25]
-      comment: in the house down the street, talking to a doll
+      comment: in the house down the street, talking to a doll .sub(skip if you saw her earlier)
       icon: gerudo-woman
 
   - .place(Secret club)
@@ -192,15 +195,14 @@ Gerudo:
       notes: no need to enter, just talk to the door
       coord: [-3788.125, 2934.375]
       icon: shopkeeper-gerudo-woman
-  - WB southeast to .place(guard's courtyard):
+  - WB west to .place(guard's courtyard):
       color: honeydew
       coord: [-3914, 2955]
-  - WB SW to .place(guard's courtyard)
   - _Woman<Calyban>:
       color: lightgreen
       comment: eating melon
       icon: gerudo-woman
-  - drop down into .place(guard's courtyard)
+  - drop down
   - _Woman<Teake>:
       comment: captain
       coord: [-3923.25, 2939.75]
@@ -250,7 +252,7 @@ Gerudo:
         - to: [-4132.90, 159.34, 2598.46]
         - to: [-3778.90, 326.03, 1855.20]
 
-  - Enter .place(Yiga Hideout)
+  - Enter .place(Yiga Hideout) through the front entrance, shoot curtain with lit arrow
   - _Woman<Barta>:
       coord: [-3626.61, 1388.09]
       icon: gerudo-woman

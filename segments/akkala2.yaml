@@ -16,12 +16,13 @@ Akkala 2:
   - _Woman<Kaifa>:
       coord: [3164, -1717]
       comment: sheep pen
+  - _Woman<Tenne>:
+      comment: horse customization
+  - _Woman::Child<Gleema>:
+      comment: child sleeping inside
   - _Woman<Jana>:
       comment: sitting under tree
       coord: [3132, -1670.5]
-  - _Woman::Child<Gleema>
-  - _Woman<Tenne>:
-      comment: horse customization
   - "Road NPC info card: .link([Laroba & Lonni]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Laroba-Lonni.jpg?raw=true)"
   - _Woman::Road<Lonni, South Akkala Stable, brown hair>
   - _Woman::Road<Laroba, South Akkala Stable, Gerudo>:

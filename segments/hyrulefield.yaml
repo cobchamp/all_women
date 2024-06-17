@@ -1,45 +1,13 @@
 Hyrule Field:
-  - WB S> + <W turn to .place(Foothill Stable):
-      coord: [3099, -1514]
-  - _Woman<Gaile>:
-      comment: outside stable
-      coord: [2606, -1130]
-  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
-      icon-doc: road-gerudo-woman
-  - BLSS to .place(Soh Kofi)
-  - _Woman::PrinceGuide<Torfeau>:
-      comment: outside shrine
-      coord: [2246, -291.5]
-  - WB southwest to signpost
-  - _Woman::PrinceGuide<Douma>:
-      icon: special-woman
-      comment: standing by the signpost
-      coord: [2132, -216]
-  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
-      icon-doc: road-gerudo-woman
-  - WB S> to bridge
-  - _Woman::PrinceGuide<Tona>:
-      comment: land on the bridge for area trigger
-      coord: [2000, 20.5]
-  - WB southwest superlaunch toward .place(Daka Tuss)
-  - _Woman::PrinceGuide<Tula>:
-      comment: land on the rocks near the deep water, wait for her area trigger to load
-      coord: [1682.25, 389.25]
-  - ? WB west to .place(Gaponga Village Ruins) and BLSS along river to .place(Woodland Stable)
-    : movements:
-        - to: [1554.75, 356.5]
-        - to: [1592, -332]
-        - to: [1273, -694]
-
   - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
-  - _Woman::Road<Karsh, Woodland Stable, Gerudo>:
-      coord: [1079.25, -1131.125]
-      icon: road-gerudo-woman
-  - _Woman<Breen>:
-      comment: horse customization
   - _Woman::Child<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]
+  - _Woman<Breen>:
+      comment: horse customization
+  - _Woman::Road<Karsh, Woodland Stable, Gerudo>:
+      coord: [1079.25, -1131.125]
+      icon: road-gerudo-woman
   - WB W> to .place(Rauru Settlement Ruins)
 
   - _Woman::Attacked::Armed<Mina>:
@@ -75,7 +43,7 @@ Hyrule Field:
       comment: zora in the lake
       coord: [-229, 2575]
 
-  - _Segment<Hyrule Field>
+  - _Segment<Akkala + Wetlands + Hyrule Field>
   - "":
       vars:
         segment-women: 0

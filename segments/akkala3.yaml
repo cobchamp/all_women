@@ -1,0 +1,21 @@
+Akkala 3:
+  - Warp to Dah Hesho:
+      icon: shrine
+      color: hotpink
+      movements:
+        - to: [3896, -1309]
+          warp: true
+  - WB to .place(Tarrey Town)
+  - Enter house near Hudson
+  - _Woman::Special<Ruli>:
+      coord: [3968.875, -1591.25]
+  - _Woman::Special<Hunnie>:
+      coord: [3972, -1592]
+  - Talk to Hudson:
+      icon: marker
+      comment: give wood, get mission to find Rito
+      coord: [3988.5, -1597]
+  - _Segment<Tarrey Town Pre-Rito>
+  - "":
+      vars:
+        segment-women: 0

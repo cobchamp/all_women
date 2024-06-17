@@ -4,7 +4,7 @@ Akkala 1:
         - to: [4312, 1424]
         - to: [4768, -560]
         - to: [4796, -1432]
-  - talk to the robot to make Robbie and Jerrin appear
+  - .sub(talk to the robot to make Robbie and Jerrin appear)
   - _Woman::Special<Jerrin>:
       coord: [4519, -3161]
   - WB to .place(East Akkala Stable)
@@ -19,7 +19,7 @@ Akkala 1:
       icon: marker
       comment: give wood, get mission to find Goron
       coord: [3988.5, -1597]
-  - .important(Make night)
+  - .important(Make night for Greyson at Southen Mine)
   - WB <S to fairy fountain
   - _Woman::Special<Mija>:
       comment: pay great fairy
@@ -29,7 +29,3 @@ Akkala 1:
       icon: shrine
       comment: Activate shrine warp
       coord: [3896, -1309]
-  - _Segment<Akkala 1>
-  - "":
-      vars:
-        segment-women: 0

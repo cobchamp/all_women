@@ -5,14 +5,14 @@ Kara Kara Bazaar:
       movements:
         - to: [-1437, 1989]
           warp: true
-
-  - _Woman<Moza>:
-      coord: [-1047, 3567]
+  - BLSS to .place(Ishto Soh Shrine)
   - Ishto Soh:
       icon: shrine
       comment: Activate shrine warp
       coord: [-996, 3568]
-  - WB + midair west to decayed guardian:
+  - _Woman<Moza>:
+      coord: [-1047, 3567]
+  - WB S> + midair to decayed guardian:
       coord: [-1225.5, 3747]
 
   - BLSS to .place(Misae Suma):
@@ -20,7 +20,7 @@ Kara Kara Bazaar:
       coord: [-2966, 3773]
   - _Woman<Pokki>:
       icon: gerudo-woman
-  - ? WB up to korok circle and step-up on nearby rocks for BLSS to .place(Geurdo Great Skeleton2)
+  - ? WB up to korok circle and step-up on nearby rocks for BLSS to .place(Geurdo Great Skeleton)
     : coord: [-3033.125, 3754.5]
   - _Woman::Special<Tera>:
       comment: pay the great fairy
@@ -41,20 +41,19 @@ Kara Kara Bazaar:
         women: .add(1) # 1+1
         segment-women: .add(2)
 
-  - WB .N to .place(Daqo Chisay Shrine):
-      notes: there isn't a lot to WB from, i just surf down the slope and use the ruins
+  - WB .N to .place(Daqo Chisay Shrine)
   - Daqo Chisay:
       icon: shrine
       comment: Activate shrine warp
       coord: [-3814, 2819]
-  - Talk to the nerd outside the shrine
+  - Talk to Benja outside the shrine, accept prompts
   - _Woman<Dorrah>:
       comment: 2 guards
       coord: [-3786.25, 2866.5]
       icon: gerudo-woman
   - _Woman<Merina>:
       icon: gerudo-woman
-  - Ignore the seal lady here (you will run right past her later when doing Gerudo 2)
+  - Ignore the seal lady here (you will run right past her later when in Gerudo)
   - Grab a Sand Seal:
       comment: sand seal recommended on this road due to stopping along the flat desert
       notes: throw bomb at the seal as soon as you stop to prevent it from escaping
@@ -129,14 +128,16 @@ Kara Kara Bazaar:
       movements:
         - to: [-2022, 1640]
 
-  - _Woman<Canni>:
-      comment: horse customization
-      coord: [-1451.55, 1250.47]
-  - _Woman::Child<Haite>
-  - _Woman<Myti>
   - _Woman<Aliza>:
       comment: under tree, 'my hero' lady
       coord: [-1400.00, 1280.00]
+  - _Woman<Canni>:
+      comment: horse customization
+      coord: [-1451.55, 1250.47]
+  - _Woman<Myti>:
+      comment: inside sitting on a chair
+  - _Woman::Child<Haite>:
+      comment: child inside sleeping
 
   - _Segment<Kara Kara Bazaar>
   - "":

@@ -7,22 +7,21 @@ Zora:
           warp: true
   - WB to stump:
       coord: [1872, 815.5]
-  - BLSS to .place(Zora's Domain):
-      notes: expecting to get here between midnight and 5am, if you're late read the note on Finley. if you're early you can find Tona up the steps after talking to Tula.
-  - west of the throne
+  - BLSS to .place(Zora's Domain), land at the .place(pools below throne room)
   - _Woman::Child<Finley>:
+      comment: can take a while to load in
       notes: at 5am she wakes up and will be in the inn
       icon: child-zora-woman
   - _Woman::Child<Laruta>:
       icon: child-zora-woman
   - drop down to main level
-  - _Woman<Kodah>:
-      comment: in the inn
-      coord: [3297, -493]
-      icon: zora-woman
   - _Woman<Marot>:
       comment: in front of general store
       coord: [3323.25, -482.25]
+      icon: zora-woman
+  - _Woman<Kodah>:
+      comment: in the inn
+      coord: [3297, -493]
       icon: zora-woman
   - _Woman<Laflat>:
       comment: by the Mipha statue
@@ -32,7 +31,7 @@ Zora:
       comment: guard near entrance
       coord: [3283.25, -436.5]
       icon: zora-woman
-  - WB to east entrance:
+  - WB <E to east entrance:
       notes: careful on the railing
   - _Woman<Gaddison>:
       comment: guard at east entrance

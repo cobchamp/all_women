@@ -1,14 +1,16 @@
 Hateno:
   - BLSS toward .place(Hateno Village) (Firly Plateau south of the town):
-      comment: use stump for step-up
+      comment: use stump for step-up, aim at the gap in the mountains just left of tower
   - _Woman::Special<Traveler>:
       coord: [3086.05, 2446.28]
   - WB N> to woods outside hateno
   - _Woman::Attacked::Unarmed<Nat>:
-      comment: use bombs to kill their attackers
+      comment: use hammer or bombs to kill their attackers
       coord: [3184, 2137]
   - _Woman::Attacked::Unarmed<Meghyn>
   - "Road NPC info card: .link([Toma & Celessa]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
+  - ? optionally, drop a wood on the torch here and wait for morning. anecdotally, spawn rates may be better in the morning, as well it helps avoid Stal spawns from scaring off the NPCs
+    : banner: true
   - _Woman::Road<Toma, Hateno Village, has horse>:
       coord: [3259.75, 2134.25]
   - _Woman::Road<Celessa, Hateno Village, dark hair>:
@@ -18,8 +20,9 @@ Hateno:
       icon: marker
       coord: [3309, 2302]
   - .important(Make noon)
-  - Start Tarrey Town stuff:
-      comment: talk to Bolson and Hudson
+  - Start Tarrey Town stuff
+  - .sub(Talk to Bolson twice until you give him money)
+  - .sub(Talk to Hudson and accept all prompts until he leaves for Akkala)
   - WB north
   - _Woman<Tamana>:
       comment: by the chickens
@@ -27,6 +30,8 @@ Hateno:
   - head toward the main road
   - _Woman::Shopkeeper<Sophie, Ventest Clothing Boutique>:
       coord: [3361.25, 2129]
+  - _Woman::Child<Narah>:
+      comment: child running around centrally
   - _Woman<Ivee>:
       comment: outside general store
       coord: [3358.25, 2160]
@@ -35,8 +40,6 @@ Hateno:
       vars:
         women: .add(1) # 1+1
         segment-women: .add(2)
-  - _Woman::Child<Narah>:
-      comment: child running around centrally
   - _Woman<Senna>:
       comment: outside dye shop
       notes: cornrows?
@@ -63,7 +66,7 @@ Hateno:
   - _Woman<Ralera>:
       comment: sitting under tree
       coord: [3580.5, 2118.5]
-  - WB W> back to .place(Ancient Furnace):
+  - WB northwest back to .place(Ancient Furnace):
       icon: marker
       coord: [3436, 1978]
   - Weapon smuggle and WB to .place(Hateno Tech Lab) with blue flame:

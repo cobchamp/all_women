@@ -1,6 +1,6 @@
 Goron City:
   - ? W + midair to tree by on the left plateau of the Akkala Citadel Ruins by the tower
-    : comment: knock down the tree and use stump to step-up. expect stalmoblins, just be fast
+    : comment: use the stone box around tree to step-up. expect stalmoblins, just be fast
       movements:
         - to: [3443.125, -1296.5]
   - BLSS to .place(Southern Mine):
@@ -19,7 +19,7 @@ Goron City:
       comment: sleeping in the inn
       coord: [1678, -2440]
       icon: gerudo-woman
-  - _Segment<Goron City>
+  - _Segment<Akkala + Goron City>
   - "":
       vars:
         segment-women: 0

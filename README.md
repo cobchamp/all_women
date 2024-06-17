@@ -6,11 +6,7 @@ A proposed Breath of the Wild Category Extension Speedrun
 
 - Runs must start from New Game.
 - Timing starts when gaining control of Link.
-- You must talk to [all 192 Women in Hyrule](women.txt) with a unique name (Yiga "Travelers" disguised as women count only once). Check the list for clarification on who is included as a goal.
-- Talking to an NPC is defined as:
-  - Their unique name appears as the speaker on any dialog box, as the label in the top-left.
-  - They have spoken voice acting in cutscenes and are speaking directly to Link in the present, either in his mind or face-to-face. Dialog spoken in a memory or flashback cutscene is not counted.
-  - Interacting with the "Goddess" (Hylia) via a Goddess Statue.
+- You must talk to [all 188 Women in Hyrule](women.txt) with a unique name on a dialog box. Check the list for clarification on who is included as a goal.
 - Timing ends when gaining control of Link after the dialog closes (you must close the final dialog)
 
 Check [BOTW Category Extensions](https://speedrun.com/botw-extension) for general game rules, amiibo rules, etc.

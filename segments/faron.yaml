@@ -39,6 +39,7 @@ Faron:
 
   - Windbomb east, over the bridge, find Sorelia south of the road
   - _Woman::Attacked::Unarmed<Sorelia>:
+      comment: freeze the bokos with ice arrows and push them away from her if she wont talk
       notes: has a male companion, dont talk to him >:)
       coord: [1954.5, 3435.5]
 
@@ -61,7 +62,7 @@ Faron:
   - _Woman::Shopkeeper<Mubs, General Store (Docks)>:
       coord: [2957.75, 3491.25]
       notes: talk on shop prompt
-  - _Segment<Faron>
+  - _Segment<Faron + Lurelin>
   - "":
       vars:
         segment-women: 0

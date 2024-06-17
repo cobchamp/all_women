@@ -1,0 +1,32 @@
+Wetlands:
+  - WB S> + <W turn to .place(Foothill Stable):
+      coord: [3099, -1514]
+  - _Woman<Gaile>:
+      comment: outside stable
+      coord: [2606, -1130]
+  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
+      icon-doc: road-gerudo-woman
+  - BLSS to .place(Soh Kofi)
+  - _Woman::PrinceGuide<Torfeau>:
+      comment: outside shrine
+      coord: [2246, -291.5]
+  - WB southwest to signpost
+  - _Woman::PrinceGuide<Douma>:
+      icon: special-woman
+      comment: standing by the signpost
+      coord: [2132, -216]
+  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
+      icon-doc: road-gerudo-woman
+  - WB S> to bridge
+  - _Woman::PrinceGuide<Tona>:
+      comment: land on the bridge for area trigger
+      coord: [2000, 20.5]
+  - WB southwest superlaunch toward .place(Daka Tuss)
+  - _Woman::PrinceGuide<Tula>:
+      comment: land on the rocks near the deep water, wait for her area trigger to load
+      coord: [1682.25, 389.25]
+  - ? WB west to .place(Gaponga Village Ruins) and BLSS along river to .place(Woodland Stable)
+    : movements:
+        - to: [1554.75, 356.5]
+        - to: [1592, -332]
+        - to: [1273, -694]

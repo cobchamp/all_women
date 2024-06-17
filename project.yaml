@@ -117,16 +117,23 @@ config:
       Segment:
         text: $(0) [.var(segment-women) of .var(women)]
         counter: .var(segment)
+      PlateauSplits:
+        text: $(0)
+        counter: .var(plateausplits)
       Fire:
         text: Wait til $(0)
         icon: fire
   - splits:
+      - plateausplits
       - segment
   - tags:
       segment:
         color: pink
         background: purple
         split-type: Segment
+      plateausplits:
+        background: grey
+        split-type: PlateauSplits
       sub:
         color: grey
       todo:

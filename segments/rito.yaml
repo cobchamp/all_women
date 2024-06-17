@@ -1,21 +1,4 @@
 - Rito:
-    - Warp to Dah Hesho:
-        icon: shrine
-        color: hotpink
-        movements:
-          - to: [3896, -1309]
-            warp: true
-    - WB to .place(Tarrey Town)
-    - Enter house near Hudson
-    - _Woman::Special<Ruli>:
-        coord: [3968.875, -1591.25]
-    - _Woman::Special<Hunnie>:
-        coord: [3972, -1592]
-    - Talk to Hudson:
-        icon: marker
-        comment: give wood, get mission to find Rito
-        coord: [3988.5, -1597]
-
     - Warp to Keh Namut:
         icon: shrine
         movements:
@@ -27,8 +10,10 @@
           - to: [-1764, 148]
     - _Woman::Road::Watch<Yammo, Tabantha Bridge Stable and Snowfield Stable, has donkey>
     - _Woman<Banji>:
+        comment: standing by the bed
         coord: [-2931.375, -547.125]
-    - _Woman::Child<Ena>
+    - _Woman::Child<Ena>:
+        comment: sleeping in the bed
     - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
     - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
         coord: [-2905.75, -574.25]
@@ -94,7 +79,7 @@
         icon: shopkeeper-rito-woman
     - from the top of the steps, WB east turn left to .place(Rito Village Stable)
 
-    - _Segment<Rito>
+    - _Segment<Tabantha + Rito>
     - "":
         vars:
           segment-women: 0

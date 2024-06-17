@@ -1,25 +1,32 @@
 - Plateau:
     - Standard Plateau route:
+        color: grey
         movements:
           - to: [-939, 1948]
           - to: [-826, 1961]
-          - to: [-445, 1990]
-            icon: shrine
-          - to: [-557, 1700]
-            icon: tower
-          - to: [-670, 1512]
-            icon: shrine
-          - to: [-842, 2273]
-          - to: [-929, 2320]
-            icon: shrine
-          - to: [-983, 2250]
-          - to: [-1434, 1988]
-          - to: [-813.5, 1968]
     - .sub(Get cutscene outside SOR to start time-of-day cycle)
     - .sub(Get 6 spicy peppers, will need 3 for IST)
+    - _PlateauSplits<Bombs>:
+        coord: [-445, 1990]
+        icon: shrine
+    - _PlateauSplits<Tower>:
+        icon: tower
+        coord: [-670, 1512]
     - .sub(Get) .important(DLC Ruby) .sub(outside Magnesis Shrine)
-    - .sub(Tower activation after Bombs)
+    - _PlateauSplits<Magnesis>:
+        icon: shrine
+        coord: [-842, 2273]
+    - _PlateauSplits<Stasis>:
+        comment: get hammer
+        icon: shrine
+        coord: [-929, 2320]
+    - _PlateauSplits<Cryonis>:
+        movements:
+          - to: [-983, 2250]
+          - to: [-1434, 1988]
+        icon: shrine
     - _Segment<Paraglider>:
+        coord: [-813.5, 1968]
         icon: king
     - "":
         vars:
