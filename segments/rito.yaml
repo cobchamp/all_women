@@ -8,76 +8,56 @@
         color: hotpink
         movements:
           - to: [-1764, 148]
-    - _Woman::Road::Watch<Yammo, Tabantha Bridge Stable and Snowfield Stable, has donkey>
-    - _Woman<Banji>:
+    - _Woman::Yammo::Watch<Tabantha Bridge Stable and Snowfield Stable>
+    - _Woman::Banji:
         comment: standing by the bed
         coord: [-2931.375, -547.125]
-    - _Woman::Child<Ena>:
+    - _Woman::Ena:
         comment: sleeping in the bed
     - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
-    - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
+    - _Woman::Yammo<Tabantha Bridge Stable>:
         coord: [-2905.75, -574.25]
-    - WB to .place(Fairy Fountain):
-        coord: [-3538, -748]
-    - _Woman::Special<Kaysa>:
-        comment: pay great fairy
+    - WB to .place(Fairy Fountain)
+    - _Woman::Kaysa
 
     # Start Rito Village
     - WB to .place(Rito Village), land at top-most huts (Elder and Saki's huts):
         notes: between 5am and 8am
-    - _Woman<Juney>:
+    - _Woman::Juney:
         coord: [-3618.5, -1832]
         comment: hylian woman, on little deck between Elder and Saki's huts
-    - _Woman<Saki>:
+    - _Woman::Saki:
         comment: pink bird from All Dungeons
         coord: [-3606.875, -1823.75]
-        icon: rito-woman
-    - _Woman<Bedoli>:
+    - _Woman::Bedoli:
         comment: also sleeping
         coord: [-3586.375, -1802.5]
         notes: wandering on flight deck
-        icon: rito-woman
-    - _Woman::Child<Molli>:
+    - _Woman::Molli:
         comment: little pink bird in the next hut down
-        icon: child-rito-woman
-    - _Woman<Laissa>:
+    - _Woman::Laissa:
         comment: purple bird in the next hut down
         coord: [-3635.125, -1791]
-        icon: rito-woman
     - Drop down to the south east to the hut with 5 sleeping children:
         notes: if it's after 5am, these little birds are all over the place... wait at the cookpot next door until Morning
-    - _Woman::Child<Cree>:
-        comment: little blue bird
+    - _Woman::Cree:
         coord: [-3605.5, -1799.5]
-        icon: child-rito-woman
-    - _Woman::Child<Kotts>:
-        comment: little yellow bird
-        icon: child-rito-woman
-    - _Woman::Child<Notts>:
-        comment: little red bird
-        icon: child-rito-woman
-    - _Woman::Child<Kheel>:
-        comment: little red bird
-        icon: child-rito-woman
-    - _Woman::Child<Genli>:
-        comment: little green bird
-        icon: child-rito-woman
-    - _Woman<Amali>:
+    - _Woman::Kotts
+    - _Woman::Notts
+    - _Woman::Kheel
+    - _Woman::Genli
+    - _Woman::Amali:
         comment: green bird by cooking pot, next hut up
         coord: [-3589, -1804.75]
-        icon: rito-woman
     - Drop down and Talk to Fyson:
         icon: marker
         coord: [-3594, -1821.375]
     - go to the .place(Inn)
-    - _Woman::Shopkeeper<Cecili, Inn>:
-        coord: [-3611.8125, -1858.1875]
+    - _Woman::Cecili:
         icon: shopkeeper-rito-woman
-    - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
+    - _Woman::Misa:
         comment: talk on shop prompt
-        coord: [-3646.5, -1822.75]
-        icon: shopkeeper-rito-woman
-    - from the top of the steps, WB east turn left to .place(Rito Village Stable)
+    - from the top of the steps, WB east turn left to go to .place(Rito Village Stable)
 
     - _Segment<Tabantha + Rito>
     - "":

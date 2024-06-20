@@ -49,7 +49,7 @@ config:
         text: Collect $(0)
         comment: $(1) $(0)
         icon: material
-      _Woman:
+      _WomanDef:
         _Road:
           Watch:
             text: Look for .road($(0)) - $(2)
@@ -107,7 +107,7 @@ config:
             counter: .var(women)
             vars:
               segment-women: .add(1)
-      Woman:
+      WomanDef:
         text: $(0)
         comment: say hi
         icon: woman
@@ -123,6 +123,7 @@ config:
       Fire:
         text: Wait til $(0)
         icon: fire
+  - use: ./women.yaml
   - splits:
       - plateausplits
       - segment

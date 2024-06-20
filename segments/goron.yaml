@@ -15,10 +15,9 @@ Goron City:
   - WBs NE + N. to .place(Goron City):
       notes: unequip or unignite bow before landing
       coord: [1561, -2246.5]
-  - _Woman<Ramella>:
+  - _Woman::Ramella:
       comment: sleeping in the inn
       coord: [1678, -2440]
-      icon: gerudo-woman
   - _Segment<Akkala + Goron City>
   - "":
       vars:

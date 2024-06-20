@@ -1,0 +1,700 @@
+presets:
+  # definitions
+  _WomanDef:
+    _Road:
+      Watch:
+        text: Look for .road($(0)) ($(2))
+        comment: on the road between .road($(1))
+        icon-doc: road-woman
+    Road:
+      text: .road($(0)) ($(2))
+      comment: attempt to force spawn by saving and cycling reloads at $(1)
+      notes:
+        - try to save with camera facing many spawn points
+        - save within the location area - so it says $(1) on the save file
+        - save on a road, if possible
+      icon: road-woman
+      counter: .var(women)
+      vars:
+        segment-women: .add(1)
+    Shopkeeper:
+      text: $(0)
+      comment: $(1) merchant
+      icon: shopkeeper-woman
+      counter: .var(women)
+      vars:
+        segment-women: .add(1)
+    Child:
+      text: $(0)
+      comment: say hi to the child
+      icon: child-woman
+      counter: .var(women)
+      vars:
+        segment-women: .add(1)
+    PrinceGuide:
+      text: $(0)
+      icon: princeguide-woman
+      counter: .var(women)
+      vars:
+        segment-women: .add(1)
+    Special:
+      text: $(0)
+      icon: special-woman
+      counter: .var(women)
+      vars:
+        segment-women: .add(1)
+    _Attacked:
+      Armed:
+        text: $(0)
+        comment: don't need to fight attackers
+        icon: attacked-woman-plus
+        counter: .var(women)
+        vars:
+          segment-women: .add(1)
+      Unarmed:
+        text: $(0)
+        comment: she's under attack! help her!
+        icon: attacked-woman-minus
+        counter: .var(women)
+        vars:
+          segment-women: .add(1)
+    Multiple:
+      text: $(0)
+      comment: talk to $(1) women at once
+      icon: woman
+      counter: .var(women)
+      vars:
+        - _amount: $(1)
+        - segment-women: .add(_amount)
+        - _amount: .sub(1)
+        - women: .add(_amount)
+  WomanDef:
+    text: $(0)
+    comment: say hi
+    icon: woman
+    counter: .var(women)
+    vars:
+      segment-women: .add(1)
+
+  _Woman:
+    # Road NPCs
+    Brokka:
+      presets: _WomanDef::Road<Brokka, $(0), red hair>
+    _Brokka:
+      Watch:
+        presets: _WomanDef::Road::Watch<Brokka, $(0), red hair>
+    Toma:
+      presets: _WomanDef::Road<Toma,$(0),has brown horse>
+    _Toma:
+      Watch:
+        presets: _WomanDef::Road::Watch<Toma,$(0),has brown horse>
+    Celessa:
+      presets: _WomanDef::Road<Celessa,$(0),dark hair>
+    _Celessa:
+      Watch:
+        presets: _WomanDef::Road::Watch<Celessa,$(0),dark hair>
+    Laroba:
+      presets: _WomanDef::Road<Laroba,$(0),Gerudo>
+      icon: road-gerudo-woman
+    _Laroba:
+      Watch:
+        presets: _WomanDef::Road::Watch<Laroba,$(0),Gerudo>
+        icon-doc: road-gerudo-woman
+    Lonni:
+      presets: _WomanDef::Road<Lonni,$(0),short dark hair>
+    _Lonni:
+      Watch:
+        presets: _WomanDef::Road::Watch<Lonni,$(0),short dark hair>
+    Karsh:
+      presets: _WomanDef::Road<Karsh,$(0),Gerudo>
+      icon: road-gerudo-woman
+    _Karsh:
+      Watch:
+        presets: _WomanDef::Road::Watch<Karsh,$(0),Gerudo>
+        icon-doc: road-gerudo-woman
+    Lukan:
+      presets: _WomanDef::Road<Lukan,$(0),Gerudo>
+      icon: road-gerudo-woman
+    _Lukan:
+      Watch:
+        presets: _WomanDef::Road::Watch<Lukan,$(0),Gerudo>
+        icon-doc: road-gerudo-woman
+    Kyra:
+      presets: _WomanDef::Road<Kyra,$(0),Gerudo\, usually running>
+      icon: road-gerudo-woman
+    _Kyra:
+      Watch:
+        presets: _WomanDef::Road::Watch<Kyra,$(0),Gerudo\, usually running>
+        icon-doc: road-gerudo-woman
+    Calisa:
+      presets: _WomanDef::Road<Calisa,$(0),Gerudo>
+      icon: road-gerudo-woman
+    _Calisa:
+      Watch:
+        presets: _WomanDef::Road::Watch<Calisa,$(0),Gerudo>
+        icon-doc: road-gerudo-woman
+    Meeshy:
+      presets: _WomanDef::Road<Meeshy,$(0),no shield>
+      icon: road-woman
+    _Meeshy:
+      Watch:
+        presets: _WomanDef::Road::Watch<Meeshy,$(0),no shield>
+        icon-doc: road-woman
+    Totsuna:
+      presets: _WomanDef::Road<Totsuna,$(0),has a shield>
+      icon: road-woman
+    _Totsuna:
+      Watch:
+        presets: _WomanDef::Road::Watch<Totsuna,$(0),has a shield>
+        icon-doc: road-woman
+    Letty:
+      presets: _WomanDef::Road<Letty,$(0),blonde>
+      icon: road-woman
+    _Letty:
+      Watch:
+        presets: _WomanDef::Road::Watch<Letty,$(0),blonde>
+        icon-doc: road-woman
+    Yammo:
+      presets: _WomanDef::Road<Yammo,$(0),has a donkey>
+      icon: road-woman
+    _Yammo:
+      Watch:
+        presets: _WomanDef::Road::Watch<Yammo,$(0),has a donkey>
+        icon-doc: road-woman
+    # Special NPCs
+    Cotera:
+      presets: _WomanDef::Special<Cotera>
+      comment: Kakariko great fairy
+      coord: [1976.25, 845.5]
+    Mija:
+      presets: _WomanDef::Special<Mija>
+      comment: Akkala great fairy
+      coord: [4120, -1386]
+    Tera:
+      presets: _WomanDef::Special<Tera>
+      comment: Gerudo great fairy
+      coord: [-4860, 3788]
+    Kaysa:
+      presets: _WomanDef::Special<Kaysa>
+      comment: Tabantha great fairy
+      coord: [-3538, -748]
+    Impa:
+      presets: _WomanDef::Special<Impa>
+      coord: [1772.75, 983]
+    Traveler:
+      presets: _WomanDef::Special<Traveler>
+      comment: do not need to fight yiga
+    Purah:
+      presets: _WomanDef::Special<Purah>
+      comment: hateno tech lab
+      coord: [3777, 2126.5]
+    Jerrin:
+      presets: _WomanDef::Special<Jerrin>
+      comment: akkala tech lab
+      coord: [4519, -3161]
+    Torfeau:
+      presets: _WomanDef::PrinceGuide<Torfeau>
+      comment: outside Soh Kofi shrine
+      coord: [2246, -291.5]
+    Douma:
+      presets: _WomanDef::PrinceGuide<Douma>
+      icon: special-woman
+      comment: standing by the signpost
+      coord: [2132, -216]
+    Tona:
+      presets: _WomanDef::PrinceGuide<Tona>
+      comment: land on the bridge for area trigger
+      coord: [2000, 20.5]
+    Tula:
+      presets: _WomanDef::PrinceGuide<Tula>
+      comment: land on the rocks near the deep water, wait for her area trigger to load
+      coord: [1682.25, 389.25]
+    Rhondson:
+      presets: _WomanDef::Special<Rhondson>
+      comment: send to tarrey town
+      icon: special-gerudo-woman
+      coord: [-3269, 2583]
+    Vilia:
+      presets: _WomanDef::Special<Vilia>
+      coord: [-3257.5, 2611.25]
+    Flaxel:
+      presets: _WomanDef::Special<Flaxel>
+      comment: don't need to fight attackers
+      coord: [-2163, 1700]
+    Canolo:
+      presets: _WomanDef::Special<Canolo>
+      comment: don't need to fight attackers
+      coord: [-2188.5, 1688]
+    Barta:
+      presets: _WomanDef::Special<Barta>
+    Ruli:
+      presets: _WomanDef::Special<Ruli>
+    Hunnie:
+      presets: _WomanDef::Special<Hunnie>
+    Monari:
+      presets: _WomanDef::Special<Monari>
+      comment: old woman
+    # Regular NPCs
+    Sagessa:
+      presets: _WomanDef<Sagessa>
+    Paya:
+      presets: _WomanDef<Paya>
+      coord: [1786.25, 985.75]
+    Cottla:
+      presets: _WomanDef::Child<Cottla>
+    Koko:
+      presets: _WomanDef::Child<Koko>
+    Trissa:
+      presets: _WomanDef::Shopkeeper<Trissa, High Spirits Produce - General store>
+      coord: [1788.25, 1027.25]
+    Rola:
+      presets: _WomanDef::Shopkeeper<Rola, The Curious Quiver>
+      coord: [1830.25, 1042.75]
+    Lasli:
+      presets: _WomanDef<Lasli>
+    Claree:
+      presets: _WomanDef::Shopkeeper<Claree, Enchanted - Armor Shop>
+      coord: [1854.5, 982]
+    Mellie:
+      presets: _WomanDef<Mellie>
+    Nanna:
+      presets: _WomanDef<Nanna>
+    Tamana:
+      presets: _WomanDef<Tamana>
+    Sophie:
+      presets: _WomanDef::Shopkeeper<Sophie, Ventest Clothing Boutique>
+      coord: [3361.25, 2129]
+    Narah:
+      presets: _WomanDef::Child<Narah>
+    Ivee:
+      presets: _WomanDef<Ivee>
+    Senna:
+      presets: _WomanDef<Senna>
+    Clavia:
+      presets: _WomanDef<Clavia>
+    Aster:
+      presets: _WomanDef::Child<Aster>
+    Uma:
+      presets: _WomanDef<Uma>
+      comment: old
+    Prima:
+      presets: _WomanDef::Shopkeeper<Prima, The Great Ton Pu Inn>
+      coord: [3467.25, 2092.25]
+    Karin:
+      presets: _WomanDef::Child<Karin>
+    Koyin:
+      presets: _WomanDef<Koyin>
+    Ralera:
+      presets: _WomanDef<Ralera>
+    Nobo:
+      presets: _WomanDef<Nobo>
+    Aya:
+      presets: _WomanDef<Aya>
+    Ramella:
+      presets: _WomanDef<Ramella>
+      icon: gerudo-woman
+    Kaifa:
+      presets: _WomanDef<Kaifa>
+    Tenne:
+      presets: _WomanDef<Tenne>
+      comment: horse customization
+    Gleema:
+      presets: _WomanDef::Child<Gleema>
+    Jana:
+      presets: _WomanDef<Jana>
+    Gaile:
+      presets: _WomanDef<Gaile>
+    Shamae:
+      presets: _WomanDef::Child<Shamae>
+    Breen:
+      presets: _WomanDef<Breen>
+      comment: horse customization
+    Benny:
+      presets: _WomanDef<Benny>
+      coord: [620.44, 77.41]
+    Magda:
+      presets: _WomanDef<Magda>
+      comment: flowerblight
+      coord: [816.80, 836.77]
+    Parcy:
+      presets: _WomanDef<Parcy>
+      coord: [345.00, 1091.50]
+    Mei:
+      presets: _WomanDef<Mei>
+      icon: zora-woman
+      comment: zora in the lake
+      coord: [-229, 2575]
+    Moza:
+      presets: _WomanDef<Moza>
+      coord: [-1047, 3567]
+    Pokki:
+      presets: _WomanDef<Pokki>
+      icon: gerudo-woman
+      coord: [-2971, 3780]
+    Sudrey:
+      presets: _WomanDef<Sudrey>
+      coord: [-3433.5, 3121.75]
+      icon: gerudo-woman
+    Dorrah:
+      presets: _WomanDef<Dorrah>
+      coord: [-3786.25, 2866.5]
+      icon: gerudo-woman
+    Merina:
+      presets: _WomanDef<Merina>
+      coord: [-3786.25, 2866.5]
+      icon: gerudo-woman
+    Ripp:
+      presets: _WomanDef<Ripp>
+      icon: gerudo-woman
+    Kachoo:
+      presets: _WomanDef::Shopkeeper<Kachoo, Inn>
+      icon: shopkeeper-gerudo-woman
+      coord: [-3267.5, 2610.5]
+    Shaillu:
+      presets: _WomanDef::Shopkeeper<Shaillu, Kara Kara Bazaar\, Arrow Shop>
+      icon: shopkeeper-gerudo-woman
+      coord: [-3267.5, 2610.5]
+    Konora:
+      presets: _WomanDef<Konora>
+      icon: gerudo-woman
+    Emri:
+      presets: _WomanDef::Shopkeeper<Emri, Kara Kara Bazaar\, Fruit Stand>
+      icon: shopkeeper-gerudo-woman
+      coord: [-3278, 2564.5]
+    Maike:
+      presets: _WomanDef::Shopkeeper<Maike, Kara Kara Bazaar\, Meat Stand>
+      icon: shopkeeper-gerudo-woman
+      coord: [-3241, 2522.5]
+    Aliza:
+      presets: _WomanDef<Aliza>
+      comment: under tree, 'my hero' lady
+    Canni:
+      presets: _WomanDef<Canni>
+      comment: horse customization
+    Myti:
+      presets: _WomanDef<Myti>
+    Haite:
+      presets: _WomanDef::Child<Haite>
+    Katta:
+      presets: _WomanDef<Katta>
+      comment: guard at upper right doorway
+      movements:
+        - to: [-3882.875, 2941.125]
+          icon: gerudo-woman
+        - to: [-3865, 2943.25]
+          warp: true
+      icon-map: false
+      icon-doc: gerudo-woman
+    Bertri:
+      presets: _WomanDef<Bertri>
+      comment: guard at upper left doorway
+      movements:
+        - to: [-3862.125, 2961.125]
+          icon: gerudo-woman
+        - to: [-3865, 2943.25]
+          warp: true
+      icon-map: false
+      icon-doc: gerudo-woman
+    Reeza:
+      presets: _WomanDef<Reeza>
+      comment: palace steps right guard
+      coord: [-3868.125, 2939.5625]
+      icon: gerudo-woman
+    Ploka:
+      presets: _WomanDef<Ploka>
+      comment: palace steps left guard
+      coord: [-3861.8125, 2945.125]
+      icon: gerudo-woman
+    Traysi:
+      presets: _WomanDef<Traysi>
+    Padda:
+      presets: _WomanDef<Padda>
+      icon: gerudo-woman
+    Pasha:
+      presets: _WomanDef<Pasha>
+      icon: gerudo-woman
+    Dina:
+      presets: _WomanDef<Dina>
+      icon: gerudo-woman
+    Ashai:
+      presets: _WomanDef<Ashai>
+      icon: gerudo-woman
+    Spera:
+      presets: _WomanDef::Shopkeeper<Spera, Grain Stand>
+      coord: [-3821.625, 2937.375]
+      icon: shopkeeper-gerudo-woman
+    Ardin:
+      presets: _WomanDef::Shopkeeper<Ardin, Mushroom Stand>
+      coord: [-3819.875, 2925.25]
+      icon: shopkeeper-gerudo-woman
+    Nali:
+      presets: _WomanDef<Nali>
+      icon: gerudo-woman
+    Kalani:
+      presets: _WomanDef::Child<Kalani>
+      icon: child-gerudo-woman
+    Makure:
+      presets: _WomanDef::Child<Makure>
+      icon: child-gerudo-woman
+    Danda:
+      presets: _WomanDef::Shopkeeper<Danda, Arrow Stand>
+      coord: [-3858, 2911.6875]
+      icon: shopkeeper-gerudo-woman
+    Frita:
+      presets: _WomanDef<Frita>
+      icon: rito-woman
+    Estan:
+      presets: _WomanDef::Shopkeeper<Estan, Meat Stand>
+      coord: [-3847.1875, 2903.1875]
+      icon: shopkeeper-gerudo-woman
+    Olu:
+      presets: _WomanDef<Olu>
+      icon: gerudo-woman
+    Romah:
+      presets: _WomanDef::Shopkeeper<Romah, Hotel Oasis>
+      coord: [-3854.25, 2897.875]
+      icon: shopkeeper-gerudo-woman
+    Malena:
+      presets: _WomanDef<Malena>
+      icon: gerudo-woman
+    Tauma:
+      presets: _WomanDef<Tauma>
+    Pearle:
+      presets: _WomanDef::Child<Pearle>
+      icon: child-gerudo-woman
+    Rotana:
+      presets: _WomanDef<Rotana>
+      icon: gerudo-woman
+    Rima:
+      presets: _WomanDef<Rima>
+      icon: gerudo-woman
+    Deltan:
+      presets: _WomanDef<Deltan>
+      icon: gerudo-woman
+    Jules:
+      presets: _WomanDef<Jules>
+    Furosa:
+      presets: _WomanDef::Shopkeeper<Furosa, Nobel Canteen>
+      coord: [-3856.5, 2854.25]
+      icon: shopkeeper-gerudo-woman
+    Pritana:
+      presets: _WomanDef<Pritana>
+      icon: gerudo-woman
+    Isha:
+      presets: _WomanDef<Isha>
+      icon: gerudo-woman
+    Cara:
+      presets: _WomanDef<Cara>
+      icon: gerudo-woman
+    Dalia:
+      presets: _WomanDef::Child<Dalia>
+      icon: child-gerudo-woman
+    Lorn:
+      presets: _WomanDef::Shopkeeper<Lorn, Fruit Stand>
+      coord: [-3822.75, 2877.375]
+      icon: shopkeeper-gerudo-woman
+    Nellie:
+      presets: _WomanDef<Nellie>
+      icon: gerudo-woman
+    Fegran:
+      presets: _WomanDef<Fegran>
+      icon: gerudo-woman
+    Saula:
+      presets: _WomanDef::Shopkeeper<Saula, Clothing Stand>
+      coord: [-3802.375, 2902]
+      icon: shopkeeper-gerudo-woman
+    Essa:
+      presets: _WomanDef<Essa>
+      icon: gerudo-woman
+    Frelly:
+      presets: _WomanDef::Shopkeeper<Frelly, Seal Rental>
+      coord: [-3757.75, 2938.875]
+      icon: shopkeeper-gerudo-woman
+    Lashley:
+      presets: _WomanDef<Lashley>
+      comment: guard
+      coord: [-3755.25, 2952.25]
+      icon: gerudo-woman
+    Muava:
+      presets: _WomanDef<Muava>
+      icon: gerudo-woman
+    Risa:
+      presets: _WomanDef<Risa>
+      icon: gerudo-woman
+    Greta:
+      presets: _WomanDef::Shopkeeper<Greta, Gerudo Secret Club>
+      coord: [-3788.125, 2934.375]
+      icon: shopkeeper-gerudo-woman
+    Calyban:
+      presets: _WomanDef<Calyban>
+      comment: eating melon
+      icon: gerudo-woman
+    Teake:
+      presets: _WomanDef<Teake>
+      comment: captain
+      icon: gerudo-woman
+    Smaude:
+      presets: _WomanDef<Smaude>
+      icon: gerudo-woman
+    Marta:
+      presets: _WomanDef<Marta>
+      icon: gerudo-woman
+    Babi:
+      presets: _WomanDef<Babi>
+      icon: gerudo-woman
+    Kohm:
+      presets: _WomanDef::Shopkeeper<Kohm, Seal Rental>
+      coord: [-3902.875, 2882.875]
+      icon: shopkeeper-gerudo-woman
+    Laine:
+      presets: _WomanDef<Laine>
+      coord: [-3914.5, 2874.375]
+      comment: guard
+      icon: gerudo-woman
+    Anche:
+      presets: _WomanDef<Anche>
+      comment: ice house lady
+      coord: [-3740, 2280]
+      icon: gerudo-woman
+    Loone:
+      presets: _WomanDef<Loone>
+      coord: [128, 3824]
+    Phanna:
+      presets: _WomanDef<Phanna>
+      comment: horse customization
+    Perosa:
+      presets: _WomanDef<Perosa>
+    Suzuna:
+      presets: _WomanDef<Suzuna>
+    Cima:
+      presets: _WomanDef<Cima>
+    Perda:
+      presets: _WomanDef<Perda>
+      comment: Gerudo by the heart pond
+      coord: [2591, 3526]
+      icon: gerudo-woman
+    Kiana:
+      presets: _WomanDef<Kiana>
+    Chessica:
+      presets: _WomanDef::Shopkeeper<Chessica, Inn>
+      coord: [2946.5, 3435.75]
+    Flavi:
+      presets: _WomanDef<Flavi>
+      icon: gerudo-woman
+    Mubs:
+      presets: _WomanDef::Shopkeeper<Mubs, General Store (Docks)>
+      coord: [2957.75, 3491.25]
+    Finley:
+      presets: _WomanDef::Child<Finley>
+      icon: child-zora-woman
+    Laruta:
+      presets: _WomanDef::Child<Laruta>
+      icon: child-zora-woman
+    Marot:
+      presets: _WomanDef<Marot>
+      icon: zora-woman
+    Kodah:
+      presets: _WomanDef<Kodah>
+      icon: zora-woman
+    Laflat:
+      presets: _WomanDef<Laflat>
+      icon: zora-woman
+    Dunma:
+      presets: _WomanDef<Dunma>
+      comment: guard near entrance
+      coord: [3283.25, -436.5]
+      icon: zora-woman
+    Gaddison:
+      presets: _WomanDef<Gaddison>
+      comment: guard at east entrance
+      coord: [3475.25, -484.75]
+      icon: zora-woman
+    Banji:
+      presets: _WomanDef<Banji>
+    Ena:
+      presets: _WomanDef::Child<Ena>
+    Juney:
+      presets: _WomanDef<Juney>
+    Saki:
+      presets: _WomanDef<Saki>
+      icon: rito-woman
+    Bedoli:
+      presets: _WomanDef<Bedoli>
+      icon: rito-woman
+    Molli:
+      presets: _WomanDef::Child<Molli>
+      icon: child-rito-woman
+    Laissa:
+      presets: _WomanDef<Laissa>
+      icon: rito-woman
+    Cree:
+      presets: _WomanDef::Child<Cree>
+      comment: little blue bird
+      icon: child-rito-woman
+    Kotts:
+      presets: _WomanDef::Child<Kotts>
+      comment: little yellow bird
+      icon: child-rito-woman
+    Notts:
+      presets: _WomanDef::Child<Notts>
+      comment: little red bird
+      icon: child-rito-woman
+    Kheel:
+      presets: _WomanDef::Child<Kheel>
+      comment: little red bird
+      icon: child-rito-woman
+    Genli:
+      presets: _WomanDef::Child<Genli>
+      comment: little green bird
+      icon: child-rito-woman
+    Amali:
+      presets: _WomanDef<Amali>
+      icon: rito-woman
+    Cecili:
+      presets: _WomanDef::Shopkeeper<Cecili, Inn>
+      coord: [-3611.8125, -1858.1875]
+      icon: shopkeeper-rito-woman
+    Misa:
+      presets: _WomanDef::Shopkeeper<Misa, Slippery Falcon - General Store>
+      coord: [-3646.5, -1822.75]
+      icon: shopkeeper-rito-woman
+    Ariane:
+      presets: _WomanDef<Ariane>
+    Selmie:
+      presets: _WomanDef<Selmie>
+      coord: [-2947.5, -3143.5]
+    Juannelle:
+      presets: _WomanDef<Juannelle>
+    Harlow:
+      presets: _WomanDef<Harlow>
+    Zumi:
+      presets: _WomanDef<Zumi>
+    # Multiple NPCs
+    AmiraNikki:
+      presets: _WomanDef::Multiple<Amira + Nikki,2>
+    TaliShabonne:
+      presets: _WomanDef::Multiple<Tali + Shabonne,2>
+      icon: gerudo-woman
+    RijuBuliara:
+      presets: _WomanDef::Multiple<Riju + Buliara,2>
+      icon: special-gerudo-woman
+    YaidoSumatiPyra:
+      presets: _WomanDef::Multiple<Yaido + Sumati + Pyra,3>
+      comment: three women talking about a password
+      icon: gerudo-woman
+    LianaLeenaKotta:
+      presets: _WomanDef::Multiple<Liana + Leena + Kotta,3>
+      icon: gerudo-woman
+    # Attacked NPCs
+    Nat:
+      presets: _WomanDef::Attacked::Unarmed<Nat>
+    Meghyn:
+      presets: _WomanDef::Attacked::Unarmed<Meghyn>
+    Mina:
+      presets: _WomanDef::Attacked::Armed<Mina>
+    Leekah:
+      presets: _WomanDef::Attacked::Unarmed<Leekah>
+    Sorelia:
+      presets: _WomanDef::Attacked::Unarmed<Sorelia>
+    Chabi:
+      presets: _WomanDef::Attacked::Armed<Chabi>
