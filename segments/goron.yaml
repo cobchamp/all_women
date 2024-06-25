@@ -13,7 +13,7 @@ Goron City:
       coord: [1656.63, -1968.53]
 
   - WBs NE + N. to .place(Goron City):
-      notes: unequip or unignite bow before landing
+      comment: .important(unequip or unignite bow before landing)
       coord: [1561, -2246.5]
   - _Woman::Ramella:
       comment: sleeping in the inn
