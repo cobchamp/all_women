@@ -17,7 +17,7 @@
         icon: shrine
         coord: [-842, 2273]
     - _PlateauSplits<Stasis>:
-        comment: get hammer
+        comment: get hammer, drop spear
         icon: shrine
         coord: [-929, 2320]
     - _PlateauSplits<Cryonis>:
