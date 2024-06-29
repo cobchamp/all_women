@@ -1,14 +1,14 @@
 Hyrule Field:
-  - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
+  - "Road NPC info card: .link([Zébaie]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
   - _Woman::Shamae:
       comment: side quest little girl
       coord: [1088, -1130]
-  - _Woman::Breen
-  - _Woman::Karsh<Woodland Stable>:
+  - _Woman::Brienn
+  - _Woman::Zébaie<Woodland Stable>:
       coord: [1079.25, -1131.125]
   - WB W> to .place(Rauru Settlement Ruins)
 
-  - _Woman::Mina:
+  - _Woman::Themen:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
 
@@ -16,24 +16,24 @@ Hyrule Field:
     : movements:
         - to: [661, -1314]
         - to: [320, -760]
-  - _Woman::Benny
+  - _Woman::Benni
   - WB <S slight turn superlaunch to .place(Hila Rao Shrine island)
   - _Woman::Magda
   - WB to bridge
-  - _Woman::Leekah:
+  - _Woman::Areau:
       coord: [678.875, 979.375]
 
   - WB to .place(Riverside Stable)
-  - _Woman::Parcy
+  - _Woman::Parisse
 
   - WB south to Owlan Bridge and BLSS to .place(Lake Hylia):
-      notes: go around the right side of Proxim bridge (near Bosh Kala) and then it's a straight slide to Mei following the river
+      notes: go around the right side of Proxim bridge (near Bosh Kala) and then it's a straight slide to Majeurie following the river
       movements:
         - to: [310, 1268.5]
         - to: [126.5, 1600.5]
         - to: [39, 2154.5]
 
-  - _Woman::Mei
+  - _Woman::Majeurie
 
   - _Segment<Akkala + Wetlands + Hyrule Field>
   - "":
