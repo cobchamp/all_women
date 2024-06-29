@@ -4,7 +4,7 @@ title: All Women
 
 # The version of your route. There's no particular format here.
 # This will be displayed in the metadata in the settings dialog
-version: 2.1.1
+version: 2.1.2
 
 # This is the route itself. Here it points to the main.yaml file we created earlier
 route:
@@ -49,71 +49,6 @@ config:
         text: Collect $(0)
         comment: $(1) $(0)
         icon: material
-      _WomanDef:
-        _Road:
-          Watch:
-            text: Look for .road($(0)) - $(2)
-            comment: on the road between .road($(1))
-            icon-doc: road-woman
-        Road:
-          text: .road($(0)) - $(2)
-          comment: attempt to force spawn by saving and cycling reloads at $(1)
-          notes:
-            - try to save with camera facing many spawn points
-            - save within the location area - so it says $(1) on the save file
-            - save on a road, if possible
-          icon: road-woman
-          counter: .var(women)
-          vars:
-            segment-women: .add(1)
-        Shopkeeper:
-          text: $(0)
-          comment: $(1) merchant
-          icon: shopkeeper-woman
-          counter: .var(women)
-          vars:
-            segment-women: .add(1)
-        Child:
-          text: $(0)
-          comment: say hi to the child
-          icon: child-woman
-          counter: .var(women)
-          vars:
-            segment-women: .add(1)
-        PrinceGuide:
-          text: $(0)
-          icon: princeguide-woman
-          counter: .var(women)
-          vars:
-            segment-women: .add(1)
-        Special:
-          text: $(0)
-          icon: special-woman
-          counter: .var(women)
-          vars:
-            segment-women: .add(1)
-        _Attacked:
-          Armed:
-            text: $(0)
-            comment: get 'em sis!
-            icon: attacked-woman-plus
-            counter: .var(women)
-            vars:
-              segment-women: .add(1)
-          Unarmed:
-            text: $(0)
-            comment: she's under attack! help her!
-            icon: attacked-woman-minus
-            counter: .var(women)
-            vars:
-              segment-women: .add(1)
-      WomanDef:
-        text: $(0)
-        comment: say hi
-        icon: woman
-        counter: .var(women)
-        vars:
-          segment-women: .add(1)
       Segment:
         text: $(0) [.var(segment-women) of .var(women)]
         counter: .var(segment)

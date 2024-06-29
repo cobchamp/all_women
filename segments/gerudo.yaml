@@ -52,7 +52,7 @@ Gerudo:
       notes: get dialog buying
   - Buy 10 ice arrows:
       icon: marker
-      comment: for 2 BTBs
+      comment: for BTB
   - _Woman::Frita:
       comment: Rito
       coord: [-3847.1875, 2903.1875]
@@ -155,12 +155,16 @@ Gerudo:
         - to: [-3740, 2280]
   - _Woman::Anche
 
-  - WB southwest
+  - surf down the hill to the Ruins
 
-  - Boko BTB -> Moblin BTB:
+  - WB N + midair + N> + midair:
+      movements:
+        - to: [-3786.75, 2373]
+        - to: [-3774.5, 2158]
+
+  - Moblin BTB:
       notes: .link([See BTB]https://www.twitch.tv/videos/1623251015)
       movements:
-        - to: [-4132.90, 159.34, 2598.46]
         - to: [-3778.90, 326.03, 1855.20]
 
   - Enter .place(Yiga Hideout) through the front entrance, shoot curtain with lit arrow

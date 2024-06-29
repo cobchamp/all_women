@@ -1,9 +1,13 @@
 Hateno:
   - BLSS toward .place(Hateno Village) (Firly Plateau south of the town):
       comment: use stump for step-up, aim at the gap in the mountains just left of tower
+  - ? Land on a horse here, keep until Hateno Village for an increased spawn rate when farming Toma
+    : coord: [2937, 2423]
+      icon: marker
+      notes: If you have Epona Amiibo, skip the wild horse and scan amiibo outside Hateno
   - _Woman::Traveler:
       coord: [3086.05, 2446.28]
-  - WB N> to woods outside hateno
+  - ride horse along road to Hateno, leave horse on road while you save Nat + Meghyn
   - _Woman::Nat:
       comment: use hammer or bombs to kill their attackers
       coord: [3184, 2137]
