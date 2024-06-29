@@ -7,9 +7,9 @@ Akkala 3:
           warp: true
   - WB to .place(Tarrey Town)
   - Enter house near Hudson
-  - _Woman::Ruli:
+  - _Woman::Harulie:
       coord: [3968.875, -1591.25]
-  - _Woman::Hunnie:
+  - _Woman::Hanny:
       coord: [3972, -1592]
   - Talk to Hudson:
       icon: marker

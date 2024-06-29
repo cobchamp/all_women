@@ -10,25 +10,25 @@ Kara Kara Bazaar:
       icon: shrine
       comment: Activate shrine warp
       coord: [-996, 3568]
-  - _Woman::Moza
+  - _Woman::Mimoza
   - WB S> + midair to decayed guardian:
       coord: [-1225.5, 3747]
 
   - BLSS to .place(Misae Suma):
       comment: straight west
       coord: [-2966, 3773]
-  - _Woman::Pokki
+  - _Woman::Pakut
   - ? WB up to korok circle and step-up on nearby rocks for BLSS to .place(Geurdo Great Skeleton)
     : coord: [-3033.125, 3754.5]
-  - _Woman::Tera
+  - _Woman::Tehera
 
   - WB east and step-up on bone finger for BLSS to .place(outpost)
-  - _Woman::Sudrey:
+  - _Woman::Sohp:
       comment: inside outpost
 
   - WB W to .place(Sand-Seal Rally)
-  - _Woman::TaliShabonne:
-      notes: talk to Tali (afro)
+  - _Woman::ParfuShabonne:
+      notes: talk to Parfu (afro)
       coord: [-3760, 3112]
 
   - WB .N to .place(Daqo Chisay Shrine)
@@ -37,9 +37,9 @@ Kara Kara Bazaar:
       comment: Activate shrine warp
       coord: [-3814, 2819]
   - Talk to Benja outside the shrine, accept prompts
-  - _Woman::Dorrah:
+  - _Woman::Dolop:
       comment: 2 guards
-  - _Woman::Merina
+  - _Woman::Muelita
   - Ignore the seal lady here (you will run right past her later when in Gerudo)
   - Grab a Sand Seal:
       comment: sand seal recommended on this road due to stopping along the flat desert
@@ -47,33 +47,33 @@ Kara Kara Bazaar:
       icon: marker
       coord: [-3728.5, 2870.5]
 
-  - _Woman::Lukan::Watch<Gerudo Town and Gerudo Canyon Stable>
+  - _Woman::Ruka::Watch<Gerudo Town and Gerudo Canyon Stable>
 
-  - "Road NPC info card: .link([Kyra]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
-  - _Woman::Kyra<Kara Kara and Gerudo Town>:
+  - "Road NPC info card: .link([Podoma]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
+  - _Woman::Podoma<Kara Kara and Gerudo Town>:
       comment: ride the sand-seal back and forth along the road until she appears
       notes:
-        - unlike all the other Road NPCs just use a sand seal for Kyra
-  - _Woman::Rhondson:
+        - unlike all the other Road NPCs just use a sand seal for Podoma
+  - _Woman::Pauda:
       notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
   - _Woman::Ripp:
       comment: guard, walking around the pond, starts at the south end by the building
       coord: [-3245.375, 2580.5]
   - Enter building
-  - _Woman::Kachoo
-  - _Woman::Konora
-  - _Woman::Shaillu
-  - _Woman::Calisa::Watch<Kara Kara Bazaar and Gerudo Canyon Stable>
-  - _Woman::Emri:
+  - _Woman::Kaciù
+  - _Woman::Koron
+  - _Woman::Shushu
+  - _Woman::Wask::Watch<Kara Kara Bazaar and Gerudo Canyon Stable>
+  - _Woman::Emeri:
       notes: talk on shop prompt
       comment: stall outside
   - WB south to the top of the building:
       coord: [-3280.5, 2553.5]
       notes: detonate stray square bomb
-  - _Woman::Vilia:
+  - _Woman::Vivian:
       comment: buy clothes
   - low WB north to shop
-  - _Woman::Maike:
+  - _Woman::Mecap:
       notes: talk on shop prompt
       comment: other stall around pond
 
@@ -83,26 +83,26 @@ Kara Kara Bazaar:
       icon: marker
       comment: talk to for side quest
       coord: [-2814, 2246.5]
-  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
-  - _Woman::Calisa<Gerudo Canyon Stable>:
+  - "Road NPC info card: .link([Wask & Ruka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
+  - _Woman::Wask<Gerudo Canyon Stable>:
       coord: [-2785, 2247.5]
-  - _Woman::Lukan<Gerudo Canyon Stable>:
-      notes: farm spawns for Lukan and Calisa in the same location
+  - _Woman::Ruka<Gerudo Canyon Stable>:
+      notes: farm spawns for Ruka and Wask in the same location
   - high WBs north and east into valley
-  - _Woman::Flaxel:
+  - _Woman::Amani:
       notes: be very careful not to fall off structure
-  - _Woman::Canolo
+  - _Woman::Natsane
   - WB <E and <E slight turn to .place(Outskirt Stable):
       movements:
         - to: [-2022, 1640]
 
-  - _Woman::Aliza:
+  - _Woman::Irisa:
       coord: [-1400.00, 1280.00]
-  - _Woman::Canni:
+  - _Woman::Canca:
       coord: [-1451.55, 1250.47]
-  - _Woman::Myti:
+  - _Woman::Mooty:
       comment: inside sitting on a chair
-  - _Woman::Haite:
+  - _Woman::Hait:
       comment: child inside sleeping
 
   - _Segment<Kara Kara Bazaar>
