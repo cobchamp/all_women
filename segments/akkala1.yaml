@@ -4,14 +4,14 @@ Akkala 1:
         - to: [4312, 1424]
         - to: [4768, -560]
         - to: [4796, -1432]
-  - .sub(talk to the robot to make Robbie and Jerrin appear)
-  - _Woman::Jerrin
+  - .sub(talk to the robot to make Robbie and 제린 appear)
+  - _Woman::제린
   - WB to .place(East Akkala Stable)
-  - _Woman::Laroba::Watch<East Akkala Stable and South Akkala Stable>:
-      notes: we will try to force a spawn for Laroba later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
-  - _Woman::Nobo:
+  - _Woman::라보라::Watch<East Akkala Stable and South Akkala Stable>:
+      notes: we will try to force a spawn for 라보라 later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
+  - _Woman::노보:
       coord: [4248, -2750.75]
-  - _Woman::Aya
+  - _Woman::미호
   - BLSS to .place(Tarrey Town)
   - Talk to Hudson:
       icon: marker
@@ -19,7 +19,7 @@ Akkala 1:
       coord: [3988.5, -1597]
   - .important(Make night for Greyson at Southen Mine)
   - WB <S to fairy fountain
-  - _Woman::Mija
+  - _Woman::미자
   - WB to shrine
   - Dah Hesho:
       icon: shrine

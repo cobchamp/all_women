@@ -6,7 +6,7 @@ Tarrey Town:
         - to: [3896, -1309]
           warp: true
   - WB to Tarrey Town
-  - _Woman::Monari:
+  - _Woman::모나리:
       notes: either in the center of town or sleeping in green house on west side
       coord: [3953.875, -1621.75]
   - _Segment<Tarrey Town>
