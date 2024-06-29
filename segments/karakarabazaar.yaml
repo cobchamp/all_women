@@ -10,25 +10,25 @@ Kara Kara Bazaar:
       icon: shrine
       comment: Activate shrine warp
       coord: [-996, 3568]
-  - _Woman::Moza
+  - _Woman::米默扎
   - WB S> + midair to decayed guardian:
       coord: [-1225.5, 3747]
 
-  - BLSS to .place(Misae Suma):
+  - BLSS to .place(米莎莎e Suma):
       comment: straight west
       coord: [-2966, 3773]
-  - _Woman::Pokki
+  - _Woman::帕可忒
   - ? WB up to korok circle and step-up on nearby rocks for BLSS to .place(Geurdo Great Skeleton)
     : coord: [-3033.125, 3754.5]
-  - _Woman::Tera
+  - _Woman::忒拉
 
   - WB east and step-up on bone finger for BLSS to .place(outpost)
-  - _Woman::Sudrey:
+  - _Woman::索璞:
       comment: inside outpost
 
   - WB W to .place(Sand-Seal Rally)
-  - _Woman::TaliShabonne:
-      notes: talk to Tali (afro)
+  - _Woman::帕弗宇夏本努:
+      notes: talk to 帕弗宇 (afro)
       coord: [-3760, 3112]
 
   - WB .N to .place(Daqo Chisay Shrine)
@@ -37,9 +37,9 @@ Kara Kara Bazaar:
       comment: Activate shrine warp
       coord: [-3814, 2819]
   - Talk to Benja outside the shrine, accept prompts
-  - _Woman::Dorrah:
+  - _Woman::多萝普:
       comment: 2 guards
-  - _Woman::Merina
+  - _Woman::姆艾丽塔
   - Ignore the seal lady here (you will run right past her later when in Gerudo)
   - Grab a Sand Seal:
       comment: sand seal recommended on this road due to stopping along the flat desert
@@ -47,33 +47,33 @@ Kara Kara Bazaar:
       icon: marker
       coord: [-3728.5, 2870.5]
 
-  - _Woman::Lukan::Watch<Gerudo Town and Gerudo Canyon Stable>
+  - _Woman::露卡::Watch<Gerudo Town and Gerudo Canyon Stable>
 
-  - "Road NPC info card: .link([Kyra]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
-  - _Woman::Kyra<Kara Kara and Gerudo Town>:
+  - "Road NPC info card: .link([珀多玛]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
+  - _Woman::珀多玛<Kara Kara and Gerudo Town>:
       comment: ride the sand-seal back and forth along the road until she appears
       notes:
-        - unlike all the other Road NPCs just use a sand seal for Kyra
-  - _Woman::Rhondson:
+        - unlike all the other Road NPCs just use a sand seal for 珀多玛
+  - _Woman::帕伍达:
       notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
-  - _Woman::Ripp:
+  - _Woman::丽普丝:
       comment: guard, walking around the pond, starts at the south end by the building
       coord: [-3245.375, 2580.5]
   - Enter building
-  - _Woman::Kachoo
-  - _Woman::Konora
-  - _Woman::Shaillu
-  - _Woman::Calisa::Watch<Kara Kara Bazaar and Gerudo Canyon Stable>
-  - _Woman::Emri:
+  - _Woman::卡秋
+  - _Woman::珂隆
+  - _Woman::旭秀
+  - _Woman::瓦斯珂::Watch<Kara Kara Bazaar and Gerudo Canyon Stable>
+  - _Woman::埃梅莉:
       notes: talk on shop prompt
       comment: stall outside
   - WB south to the top of the building:
       coord: [-3280.5, 2553.5]
       notes: detonate stray square bomb
-  - _Woman::Vilia:
+  - _Woman::维薇安:
       comment: buy clothes
   - low WB north to shop
-  - _Woman::Maike:
+  - _Woman::梅肯朴:
       notes: talk on shop prompt
       comment: other stall around pond
 
@@ -83,26 +83,26 @@ Kara Kara Bazaar:
       icon: marker
       comment: talk to for side quest
       coord: [-2814, 2246.5]
-  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
-  - _Woman::Calisa<Gerudo Canyon Stable>:
+  - "Road NPC info card: .link([瓦斯珂 & 露卡]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
+  - _Woman::瓦斯珂<Gerudo Canyon Stable>:
       coord: [-2785, 2247.5]
-  - _Woman::Lukan<Gerudo Canyon Stable>:
-      notes: farm spawns for Lukan and Calisa in the same location
+  - _Woman::露卡<Gerudo Canyon Stable>:
+      notes: farm spawns for 露卡 and 瓦斯珂 in the same location
   - high WBs north and east into valley
-  - _Woman::Flaxel:
+  - _Woman::阿迈尼:
       notes: be very careful not to fall off structure
-  - _Woman::Canolo
+  - _Woman::娜塔内
   - WB <E and <E slight turn to .place(Outskirt Stable):
       movements:
         - to: [-2022, 1640]
 
-  - _Woman::Aliza:
+  - _Woman::伊莱扎:
       coord: [-1400.00, 1280.00]
-  - _Woman::Canni:
+  - _Woman::康妮:
       coord: [-1451.55, 1250.47]
-  - _Woman::Myti:
+  - _Woman::姆悌:
       comment: inside sitting on a chair
-  - _Woman::Haite:
+  - _Woman::哈依特:
       comment: child inside sleeping
 
   - _Segment<Kara Kara Bazaar>

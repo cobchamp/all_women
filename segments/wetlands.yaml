@@ -1,19 +1,19 @@
 Wetlands:
   - WB S> + <W turn to .place(Foothill Stable):
       coord: [3099, -1514]
-  - _Woman::Gaile:
+  - _Woman::凯特:
       comment: outside stable
       coord: [2606, -1130]
-  - _Woman::Karsh::Watch<Foothill Stable and Woodland Stable>
+  - _Woman::咖夏::Watch<Foothill Stable and Woodland Stable>
   - BLSS to .place(Soh Kofi)
-  - _Woman::Torfeau
+  - _Woman::托尔伏
   - low square first WB southwest to signpost
-  - _Woman::Douma
-  - _Woman::Karsh::Watch<Foothill Stable and Woodland Stable>
+  - _Woman::双叶
+  - _Woman::咖夏::Watch<Foothill Stable and Woodland Stable>
   - WB S> to bridge
-  - _Woman::Tona
+  - _Woman::托恩
   - WB southwest superlaunch toward .place(Daka Tuss)
-  - _Woman::Tula
+  - _Woman::卢特亚
   - ? WB west to .place(Gaponga Village Ruins) and BLSS along river to .place(Woodland Stable)
     : movements:
         - to: [1554.75, 356.5]

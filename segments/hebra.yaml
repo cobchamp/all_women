@@ -1,32 +1,32 @@
 Hebra:
-  - _Woman::Ariane:
+  - _Woman::阿莉奥诺:
       comment: outside sweeping
       coord: [-3246, -1782]
-  - WB chain to .place(Selmie's Cabin):
+  - WB chain to .place(丝莱米's Cabin):
       movements:
         - to: [-3430.5, -2208]
         - to: [-3369, -2545.75]
         - to: [-3261, -2563.5]
         - to: [-3062, -2629]
-  - _Woman::Selmie:
-      comment: at Selmie's Cabin
+  - _Woman::丝莱米:
+      comment: at 丝莱米's Cabin
 
   - ? exit and go right toward Shada Naw, knock down and use the stump of the tree to step-up and BLSS
     : notes: steer southeast around the Hebra peak until you see Death Mountain visible through the fog, steer toward the volcano until .place(Snowfield Stable) is visible below you
       movements:
         - to: [-2836, -2844]
         - to: [-2612, -2648]
-  - _Woman::Juannelle:
+  - _Woman::一叶:
       comment: at snowfield stable
       coord: [-1642, -2568]
-  - _Woman::Harlow:
+  - _Woman::霍萝:
       comment: at snowfield stable
   - WB .S turn super to .place(Serenne Stable)
-  - _Woman::Zumi:
+  - _Woman::可姿米:
       comment: at serenne stable
       coord: [-1540.5, -1797]
   - WB E turn to .place(little ruined house)
-  - _Woman::Chabi:
+  - _Woman::恰比:
       coord: [-1236, -1870]
   - _Segment<Hebra>
   - "":
