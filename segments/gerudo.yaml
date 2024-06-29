@@ -97,7 +97,7 @@ Gerudo:
       notes: you cannot jump over the counter
       comment: back corner of jewelry shop
       coord: [-3833.375, 2872.625]
-  - _Woman::Dalia:
+  - _Woman::Talia:
       comment: child sleeping in stall
       coord: [-3822.75, 2877.375]
   - _Woman::Lorn:

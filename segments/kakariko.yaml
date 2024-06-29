@@ -9,13 +9,13 @@ Kakariko:
         - by the waterfall behind Ha Dahamar Shrine
         - grab them while gliding or you can shoot them down with arrows
       coord: [1615, 1897]
-  - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
-  - _Woman::Brokka<Dueling Peaks Stable>:
+  - "Road NPC info card: .link([Brock]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
+  - _Woman::Brock<Dueling Peaks Stable>:
       coord: [1727.75, 1927]
   - _Woman::Toma::Watch<Dueling Peaks Stable to Hateno Village>:
-      notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
+      notes: Toma may be here while farming spawns for Brock but her spawn rate is very low
   - _Woman::Celessa::Watch<Dueling Peaks Stable to Hateno Village>:
-      notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
+      notes: Celessa may be here while farming spawns for Brock but her spawn rate is very low
   - Sell Ruby to Beedle, buy 10 arrows:
       icon: marker
       coord: [1721.5, 1963]
