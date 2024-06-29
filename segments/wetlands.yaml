@@ -1,15 +1,15 @@
 Wetlands:
   - WB S> + <W turn to .place(Foothill Stable):
       coord: [3099, -1514]
-  - _Woman::Gaile:
+  - _Woman::Kerte:
       comment: outside stable
       coord: [2606, -1130]
-  - _Woman::Karsh::Watch<Foothill Stable and Woodland Stable>
+  - _Woman::Karsha::Watch<Foothill Stable and Woodland Stable>
   - BLSS to .place(Soh Kofi)
   - _Woman::Torfeau
   - low square first WB southwest to signpost
-  - _Woman::Douma
-  - _Woman::Karsh::Watch<Foothill Stable and Woodland Stable>
+  - _Woman::Kleo
+  - _Woman::Karsha::Watch<Foothill Stable and Woodland Stable>
   - WB S> to bridge
   - _Woman::Tona
   - WB southwest superlaunch toward .place(Daka Tuss)

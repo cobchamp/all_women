@@ -9,7 +9,7 @@
         movements:
           - to: [-1764, 148]
     - _Woman::Yammo::Watch<Tabantha Bridge Stable and Snowfield Stable>
-    - _Woman::Banji:
+    - _Woman::Banzi:
         comment: standing by the bed
         coord: [-2931.375, -547.125]
     - _Woman::Ena:
@@ -18,18 +18,18 @@
     - _Woman::Yammo<Tabantha Bridge Stable>:
         coord: [-2905.75, -574.25]
     - WB to .place(Fairy Fountain)
-    - _Woman::Kaysa
+    - _Woman::Caesa
 
     # Start Rito Village
     - WB to .place(Rito Village), land at top-most huts (Elder and Saki's huts):
         notes: between 5am and 8am
-    - _Woman::Juney:
+    - _Woman::Juno:
         coord: [-3618.5, -1832]
         comment: hylian woman, on little deck between Elder and Saki's huts
     - _Woman::Saki:
         comment: pink bird from All Dungeons
         coord: [-3606.875, -1823.75]
-    - _Woman::Bedoli:
+    - _Woman::Bella:
         comment: also sleeping
         coord: [-3586.375, -1802.5]
         notes: wandering on flight deck
@@ -40,11 +40,11 @@
         coord: [-3635.125, -1791]
     - Drop down to the south east to the hut with 5 sleeping children:
         notes: if it's after 8am, these little birds are all over the place... wait at the cookpot next door until Morning
-    - _Woman::Cree:
+    - _Woman::Gurli:
         coord: [-3605.5, -1799.5]
-    - _Woman::Kotts
-    - _Woman::Notts
-    - _Woman::Kheel
+    - _Woman::Kan
+    - _Woman::Nan
+    - _Woman::Kihl
     - _Woman::Genli
     - _Woman::Amali:
         comment: green bird by cooking pot, next hut up
