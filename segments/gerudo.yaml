@@ -9,151 +9,151 @@ Gerudo:
   - WB south to palace upper right doorway:
       color: honeydew
       coord: [-3882.875, 2941.125]
-  - _Woman::Katta:
+  - _Woman::Atta:
       color: lightgreen
   - .place(palace steps)
-  - _Woman::Reeza
-  - _Woman::Ploka
-  - _Woman::Traysi:
+  - _Woman::Hayba
+  - _Woman::Raysa
+  - _Woman::Mirene:
       comment: talking to left guard
       coord: [-3861.8125, 2945.125]
   - enter the .place(palace):
       notes: forced dialog
-  - _Woman::RijuBuliara:
+  - _Woman::RijuAdine:
       comment: Main Quest dialog
       coord: [-3889.9375, 2969.1875]
   - .place(Patricia (seal\) courtyard)
-  - _Woman::Padda:
+  - _Woman::Shante:
       coord: [-3848.875, 2987.125]
 
-  - _Woman::Bertri
+  - _Woman::Maore
   - glide down and run to .place(room by the cooking pots)
-  - _Woman::Pasha:
+  - _Woman::Sahooru:
       notes: 3 women inside
       coord: [-3814.25, 2954]
-  - _Woman::Dina
-  - _Woman::Ashai
+  - _Woman::Dinea
+  - _Woman::Nasha
   - go towards .place(main square)
-  - _Woman::Spera:
+  - _Woman::Pyene:
       notes: talk on shop prompt
-  - _Woman::Ardin:
+  - _Woman::Aine:
       notes: talk on shop prompt
-  - _Woman::Nali:
+  - _Woman::Nareen:
       comment: in the center of the square by the Goron
       notes: if she isn't here (after 12am) read note after guards courtyard
       coord: [-3842.125, 2920.375]
-  - _Woman::Kalani:
+  - _Woman::Araani:
       comment: sleeping child
       notes: 2 children sleeping in arrow stall
       coord: [-3858, 2911.6875]
-  - _Woman::Makure:
+  - _Woman::Kamure:
       comment: sleeping child
-  - _Woman::Danda:
+  - _Woman::Avoor:
       notes: get dialog buying
   - Buy 10 ice arrows:
       icon: marker
       comment: for BTB
-  - _Woman::Frita:
+  - _Woman::Ineli:
       comment: Rito
       coord: [-3847.1875, 2903.1875]
-  - _Woman::Estan
-  - _Woman::Olu:
+  - _Woman::Zellia
+  - _Woman::Oyle:
       coord: [-3839.375, 2893.875]
       comment: outside inn
-  - ? if you made good time, you may see Risa coming home from the school. if so, talk to her here and skip her later
+  - ? if you made good time, you may see Lissen coming home from the school. if so, talk to her here and skip her later
     : banner: true
   - enter the .place(Inn)
-  - _Woman::Romah
-  - _Woman::Malena:
+  - _Woman::Aromyn
+  - _Woman::Nereen:
       comment: sleeping in a bed
-  - _Woman::Tauma:
+  - _Woman::Aume:
       comment: hylian reading a book in side room
   - exit Inn and go across street
   - enter the .place(House next to bar):
       coord: [-3874.75, 2876.125]
-  - _Woman::Pearle
-  - _Woman::Rotana:
+  - _Woman::Urye
+  - _Woman::Loteen:
       comment: shrinequest npc at bookshelf in the same house
-  - _Woman::Rima:
+  - _Woman::Rimu:
       coord: [-3857, 2882.25]
       comment: under tent outside
   - climb wall next to sign into the .place(bar):
       coord: [-3856.25, 2849.75]
       notes: 7 in the bar
-  - _Woman::Deltan:
+  - _Woman::Delane:
       comment: sad drunk
-  - _Woman::YaidoSumatiPyra
-  - _Woman::Jules:
+  - _Woman::YaineSumatiFeena
+  - _Woman::Jul:
       comment: hylian in bar
-  - _Woman::Furosa:
+  - _Woman::Nesooru:
       comment: barkeeper
-  - _Woman::Pritana:
+  - _Woman::Komane:
       comment: standing across bar
   - go towards .place(main square) again
-  - _Woman::Isha:
+  - _Woman::Aisha:
       comment: sidequest npc outside jewelry shop
       coord: [-3833.5, 2883.75]
-  - _Woman::Cara:
+  - _Woman::Karah:
       notes: you cannot jump over the counter
       comment: back corner of jewelry shop
       coord: [-3833.375, 2872.625]
-  - _Woman::Dalia:
+  - _Woman::Tarya:
       comment: child sleeping in stall
       coord: [-3822.75, 2877.375]
-  - _Woman::Lorn:
+  - _Woman::Velooru:
       notes: talk on shop prompt
-  - _Woman::Nellie:
+  - _Woman::Nooru:
       comment: standing by fruit stand
-  - _Woman::Fegran:
+  - _Woman::Sayda:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
-  - _Woman::Saula:
+  - _Woman::Shayne:
       notes: talk on shop prompt
   - .place(seal rental)
-  - _Woman::Essa:
+  - _Woman::Eysa:
       comment: in room on the right sleeping
       coord: [-3773.5, 2916.375]
-  - _Woman::Frelly
-  - _Woman::Lashley
-  - _Woman::Muava:
+  - _Woman::Verdyne
+  - _Woman::Lash
+  - _Woman::Maiya:
       coord: [-3770.25, 2945.75]
 
-  - _Woman::Risa:
+  - _Woman::Lissen:
       coord: [-3806.25, 2938.25]
       comment: in the house down the street, talking to a doll .sub(skip if you saw her earlier)
 
   - .place(Secret club)
-  - _Woman::Greta:
+  - _Woman::Grette:
       notes: no need to enter, just talk to the door
   - WB west to .place(guard's courtyard):
       color: honeydew
       coord: [-3914, 2955]
-  - _Woman::Calyban:
+  - _Woman::Reeva:
       color: lightgreen
   - drop down
-  - _Woman::Teake:
+  - _Woman::Nayna:
       coord: [-3923.25, 2939.75]
-  - _Woman::LianaLeenaKotta:
+  - _Woman::SaryenLeenaKotta:
       notes: talk to their commander
       coord: [-3911.875, 2930.125]
-  - _Woman::Smaude:
+  - _Woman::Semadi:
       comment: three training together
       coord: [-3910.75, 2913.3125]
-  - _Woman::Marta
-  - _Woman::Babi
+  - _Woman::Maryen
+  - _Woman::Obeen
 
-  - ? if you got to Gerudo late, .important(Nali), who would have been in the main square, is asleep in a bed in the house on the right on your way to the Seal Rental
+  - ? if you got to Gerudo late, .important(Nareen), who would have been in the main square, is asleep in a bed in the house on the right on your way to the Seal Rental
     : banner: true
       coord: [-3885.625, 2903.625]
 
-  - _Woman::Kohm
-  - _Woman::Laine
+  - _Woman::Haia
+  - _Woman::Layne
 
   - WB superlaunch to .place(Ice House):
       comment: aim at gerudo highlands tower and do a slight turn with a superlaunch
       movements:
         - to: [-3740, 2280]
-  - _Woman::Anche
+  - _Woman::Anere
 
   - surf down the hill to the Ruins
 
@@ -168,7 +168,7 @@ Gerudo:
         - to: [-3778.90, 326.03, 1855.20]
 
   - Enter .place(Yiga Hideout) through the front entrance, shoot curtain with lit arrow
-  - _Woman::Barta:
+  - _Woman::Byrta:
       comment: i guess she'll just rot in here
       coord: [-3626.61, 1388.09]
 

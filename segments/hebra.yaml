@@ -1,5 +1,5 @@
 Hebra:
-  - _Woman::Ariane:
+  - _Woman::Arione:
       comment: outside sweeping
       coord: [-3246, -1782]
   - WB chain to .place(Selmie's Cabin):
@@ -16,17 +16,17 @@ Hebra:
       movements:
         - to: [-2836, -2844]
         - to: [-2612, -2648]
-  - _Woman::Juannelle:
+  - _Woman::Darene:
       comment: at snowfield stable
       coord: [-1642, -2568]
-  - _Woman::Harlow:
+  - _Woman::Harloa:
       comment: at snowfield stable
   - WB .S turn super to .place(Serenne Stable)
-  - _Woman::Zumi:
+  - _Woman::Emmi:
       comment: at serenne stable
       coord: [-1540.5, -1797]
   - WB E turn to .place(little ruined house)
-  - _Woman::Chabi:
+  - _Woman::Chaiba:
       coord: [-1236, -1870]
   - _Segment<Hebra>
   - "":

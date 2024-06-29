@@ -1,4 +1,4 @@
-- There are 188 Women to talk to in the game, notably Jerrin in Akkala Tech Lab (who requires you get Robbie's Research side quest), 4 Great Fairies (who must be paid), .road(13 Road NPCs) (more on them below), and 3 Tarrey Town Residents (requiring you to complete From The Ground Up partially up to Fyson the Rito).
+- There are 188 Women to talk to in the game, notably Zheline in Akkala Tech Lab (who requires you get Robbie's Research side quest), 4 Great Fairies (who must be paid), .road(13 Road NPCs) (more on them below), and 3 Tarrey Town Residents (requiring you to complete From The Ground Up partially up to Fyson the Rito).
 
 - .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
 
@@ -13,7 +13,7 @@
 #
 # Kakariko branch
 #
-# Talk to Impa for Yiga Assassin spawns and for Camera Requirement (Jerrin)
+# Talk to Impa for Yiga Assassin spawns and for Camera Requirement (Zheline)
 # Get all of Kakariko Village
 # Start time of day cycle (Arrive 6am?)
 - use: ./segments/kakariko.yaml # red
@@ -22,7 +22,7 @@
 # Get all the Road NPCs on the way
 # Start Tarrey Town quest (Set Noon)
 # Get all of Hateno Village
-# Get Camera from Purah
+# Get Camera from Prunia
 - use: ./segments/hateno.yaml # red
 
 # Get Akkala Tech Lab
@@ -43,7 +43,7 @@
 
 # Get Foothill stable, NPCs along the road to Woodland Stable
 # Magda, Riverside Stable, Outskirt Stable, along road to Lake Hylia
-# Branch ends at Mei in Lake Hylia
+# Branch ends at Dimai in Lake Hylia
 - use: ./segments/wetlands.yaml # orange
 - use: ./segments/hyrulefield.yaml # orange
 
@@ -78,7 +78,7 @@
 #
 # Faron Branch
 #
-# Start with Loone
+# Start with Lune
 # Get to Highland Stable and follow road all the way to Lurelin Village
 # Get Lakeside Stable and all NPCs along the road
 - use: ./segments/faron.yaml # lightblue
