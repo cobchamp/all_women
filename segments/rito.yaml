@@ -8,54 +8,54 @@
         color: hotpink
         movements:
           - to: [-1764, 148]
-    - _Woman::Yammo::Watch<Tabantha Bridge Stable and Snowfield Stable>
-    - _Woman::Banji:
+    - _Woman::ヤム::Watch<Tabantha Bridge Stable and Snowfield Stable>
+    - _Woman::バンジーデ:
         comment: standing by the bed
         coord: [-2931.375, -547.125]
-    - _Woman::Ena:
+    - _Woman::エン:
         comment: sleeping in the bed
-    - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
-    - _Woman::Yammo<Tabantha Bridge Stable>:
+    - "Road NPC info card: .link([ヤム]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
+    - _Woman::ヤム<Tabantha Bridge Stable>:
         coord: [-2905.75, -574.25]
     - WB to .place(Fairy Fountain)
-    - _Woman::Kaysa
+    - _Woman::シーザ
 
     # Start Rito Village
-    - WB to .place(Rito Village), land at top-most huts (Elder and Saki's huts):
+    - WB to .place(Rito Village), land at top-most huts (Elder and サキ's huts):
         notes: between 5am and 8am
-    - _Woman::Juney:
+    - _Woman::ジュノー:
         coord: [-3618.5, -1832]
-        comment: hylian woman, on little deck between Elder and Saki's huts
-    - _Woman::Saki:
+        comment: hylian woman, on little deck between Elder and サキ's huts
+    - _Woman::サキ:
         comment: pink bird from All Dungeons
         coord: [-3606.875, -1823.75]
-    - _Woman::Bedoli:
+    - _Woman::ベラ:
         comment: also sleeping
         coord: [-3586.375, -1802.5]
         notes: wandering on flight deck
-    - _Woman::Molli:
+    - _Woman::モモ:
         comment: little pink bird in the next hut down
-    - _Woman::Laissa:
+    - _Woman::ソリレス:
         comment: purple bird in the next hut down
         coord: [-3635.125, -1791]
     - Drop down to the south east to the hut with 5 sleeping children:
         notes: if it's after 8am, these little birds are all over the place... wait at the cookpot next door until Morning
-    - _Woman::Cree:
+    - _Woman::グリグリ:
         coord: [-3605.5, -1799.5]
-    - _Woman::Kotts
-    - _Woman::Notts
-    - _Woman::Kheel
-    - _Woman::Genli
-    - _Woman::Amali:
+    - _Woman::コッツ
+    - _Woman::ナン
+    - _Woman::キール
+    - _Woman::ゲンコ
+    - _Woman::ハミラ:
         comment: green bird by cooking pot, next hut up
         coord: [-3589, -1804.75]
     - Drop down and Talk to Fyson:
         icon: marker
         coord: [-3594, -1821.375]
     - go to the .place(Inn)
-    - _Woman::Cecili:
+    - _Woman::セセリー:
         icon: shopkeeper-rito-woman
-    - _Woman::Misa:
+    - _Woman::ミササ:
         comment: talk on shop prompt
     - from the top of the steps, WB east turn left to go to .place(Rito Village Stable)
 

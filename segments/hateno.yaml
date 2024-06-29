@@ -1,24 +1,24 @@
 Hateno:
   - BLSS toward .place(Hateno Village) (Firly Plateau south of the town):
       comment: use stump for step-up, aim at the gap in the mountains just left of tower
-  - ? Land on a horse here, keep until Hateno Village for an increased spawn rate when farming Toma
+  - ? Land on a horse here, keep until Hateno Village for an increased spawn rate when farming トトマ
     : coord: [2937, 2423]
       icon: marker
       notes: If you have Epona Amiibo, skip the wild horse and scan amiibo outside Hateno
-  - _Woman::Traveler:
+  - _Woman::たびびと旅人:
       coord: [3086.05, 2446.28]
-  - ride horse along road to Hateno, leave horse on road while you save Nat + Meghyn
-  - _Woman::Nat:
+  - ride horse along road to Hateno, leave horse on road while you save ナツ + メグ
+  - _Woman::ナツ:
       comment: use hammer or bombs to kill their attackers
       coord: [3184, 2137]
-  - _Woman::Meghyn
-  - "Road NPC info card: .link([Toma & Celessa]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
+  - _Woman::メグ
+  - "Road NPC info card: .link([トトマ & リーセ]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
   - ? optionally, drop a wood on the torch here and wait for morning. anecdotally, spawn rates may be better in the morning, as well it helps avoid Stal spawns from scaring off the NPCs
     : banner: true
-  - _Woman::Toma<Hateno Village>:
+  - _Woman::トトマ<Hateno Village>:
       coord: [3259.75, 2134.25]
-  - _Woman::Celessa<Hateno Village>:
-      notes: farm spawns for Toma and Celessa in the same location
+  - _Woman::リーセ<Hateno Village>:
+      notes: farm spawns for トトマ and リーセ in the same location
   - WB <S to Bolson
   - Talk to Bolson:
       icon: marker
@@ -28,39 +28,39 @@ Hateno:
   - .sub(Talk to Bolson twice until you give him money)
   - .sub(Talk to Hudson and accept all prompts until he leaves for Akkala)
   - WB north
-  - _Woman::Tamana:
+  - _Woman::タマナ:
       comment: by the chickens
       coord: [3349, 2086.75]
   - head toward the main road
-  - _Woman::Sophie
-  - _Woman::Narah:
+  - _Woman::ソフォラ
+  - _Woman::ナララ:
       comment: child running around centrally
-  - _Woman::Ivee:
+  - _Woman::アイビー:
       comment: outside general store
       coord: [3358.25, 2160]
-  - _Woman::AmiraNikki
-  - _Woman::Senna:
+  - _Woman::アマリリナギコ
+  - _Woman::セン:
       comment: outside dye shop
       notes: cornrows
       coord: [3401, 2137.75]
-  - _Woman::Clavia:
+  - _Woman::クレーヴィア:
       comment: behind dye shop
       coord: [3426.25, 2162.75]
-  - _Woman::Aster:
+  - _Woman::シオン:
       comment: child running around outside inn
       coord: [3426.5, 2118.75]
-  - _Woman::Uma:
+  - _Woman::ウメ:
       coord: [3458, 2129.5]
-  - _Woman::Prima: # Inn
+  - _Woman::ツキミ: # Inn
       notes: stand on the counter
-  - _Woman::Karin:
+  - _Woman::クーリン:
       comment: walking on the bridge
       coord: [3476.5, 2139.5]
   - WB east
-  - _Woman::Koyin:
+  - _Woman::トコユ:
       comment: by the farmhouse
       coord: [3622, 2096]
-  - _Woman::Ralera:
+  - _Woman::ロレル:
       comment: sitting under tree
       coord: [3580.5, 2118.5]
   - WB northwest back to .place(Ancient Furnace):
@@ -70,7 +70,7 @@ Hateno:
       coord: [3639.5, 2094.5]
   - Light the furnace:
       notes: keep the torch so you have a wooden weapon if there are thunderstorms later
-  - _Woman::Purah
+  - _Woman::プルア
   - take her picture, show it to her, get the Robbie's Research side quest
   - _Segment<Hateno>
   - "":

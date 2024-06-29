@@ -9,19 +9,19 @@ Kakariko:
         - by the waterfall behind Ha Dahamar Shrine
         - grab them while gliding or you can shoot them down with arrows
       coord: [1615, 1897]
-  - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
-  - _Woman::Brokka<Dueling Peaks Stable>:
+  - "Road NPC info card: .link([ロブリッコ]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
+  - _Woman::ロブリッコ<Dueling Peaks Stable>:
       coord: [1727.75, 1927]
-  - _Woman::Toma::Watch<Dueling Peaks Stable to Hateno Village>:
-      notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
-  - _Woman::Celessa::Watch<Dueling Peaks Stable to Hateno Village>:
-      notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
+  - _Woman::トトマ::Watch<Dueling Peaks Stable to Hateno Village>:
+      notes: トトマ may be here while farming spawns for ロブリッコ but her spawn rate is very low
+  - _Woman::リーセ::Watch<Dueling Peaks Stable to Hateno Village>:
+      notes: リーセ may be here while farming spawns for ロブリッコ but her spawn rate is very low
   - Sell Ruby to Beedle, buy 10 arrows:
       icon: marker
       coord: [1721.5, 1963]
   - _Material<Apples, 3>:
       coord: [1742.25, 1943.5]
-  - _Woman::Sagessa:
+  - _Woman::サゲサ:
       comment: she'll talk to you when you take the Apples (shorter dialog)
       coord: [1742.25, 1943.5]
   - Torch:
@@ -43,7 +43,7 @@ Kakariko:
         - to: [1417.40, 1922.06]
   - _Material<Bird Egg>:
       coord: [2006.125, 867.625]
-  - _Woman::Cotera
+  - _Woman::クチューラ
   - _Material<Fairy,1>
   - _Material<Blue Nightshade,3>
   - _Material<Endura Carrot,1>
@@ -52,29 +52,29 @@ Kakariko:
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5, 889.25]
-  - _Woman::Paya
-  - _Woman::Impa:
+  - _Woman::パーヤ
+  - _Woman::インパ:
       comment: talk twice, accept prompt
-  - _Woman::Cottla:
+  - _Woman::プリコ:
       comment: at the tables by cooking pot
       notes: if you are early (before 4pm) she will be running around the village, if you are late (after 7pm) both koko and cottla will be in bed (house next to chicken guy's house)
       coord: [1789.875, 1017.625]
   - Pot Lid:
       icon: weapon
       comment: drop/break your current potlid and pick up the fresh one
-  - _Woman::Koko:
+  - _Woman::ココナ:
       comment: at the cooking pot
       notes: shorter dialog if you talk to her via picking up the potlid
       coord: [1798.875, 1013.75]
   - _Cook:
       text: Cook speed food
       comment: 4x swift violet, 1 bird egg (5:30)
-  - _Woman::Trissa
+  - _Woman::シトラ
   - Break 6 slots for IST:
       comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA6VTMY7jMAzs%2FQoCabdIsosDUtxLDlswFiMLkUUdJdvw74%2BS4mw2aRa4yqJFcmbIkQsuwwEGHEeSP%2FR3cvFT48zSD%2Fo983L%2FuQcUeYghDY68afEbeHeh3x%2F7%2FSe8Q4quXyFSjCQJPiAt7pJhduwpJ73HGD1ph4XZFBQnBshaPV7QyaoZZz8RBGeHnAY0JZeCmQShLyQK5eQxk%2FZmOScNrXeGpFtcHp4AS621Xc98VWJE5qKo3Q7OQniFX9qIlZQLkBeGVAjWJjxJUdILRhgVShz61BnhqA03Aa80H6V3DeK9QTRux1vt8aX2%2BL1Wz9cp%2Fjz%2Ff7Bq9tOI28AOIIwpk3m63JVJgfJzYaagdlnhwgJ5IEg4U5uTuqcdmlO24TWzddU3zWnaTsgQjWWAGUcXEGZKiXwnNPK87bkrvQETWDZG7wGnzBVvB1b5BLKYnaaMPU8hAwZTTIvBElS4UbkqZOUpZRyQ1DYbCHoP1RyVaIm2xX%2F9WQgjh7St5%2Bup3FQVGkV3%2Bd5kT6FJbaVKtWeRKWangZBnNK960sDV5fXJdTeJlcTdiyoCVaLQ1k%2BXxAEsjmQwI6Qqc4UKoPaOWq0EX7WRttEt64ahr8Hh4Z3c09uiGt%2FChQO91aGv5aWMGq6dLszD6XR6Ms0%2FpWyFRGUEAAA%3D)
       notes:
         - scrap = pepper x3, blue nightshade x3, apple x3
-  - _Woman::Rola:
+  - _Woman::セローラ:
       notes: talk to her on arrow prompt
   - _Cook:
       text: Roast endura carrot
@@ -85,18 +85,18 @@ Kakariko:
       comment: get 1 stamina vessel
       coord: [1839.625, 998.125]
   - use this autosave and complete the IST setup
-  - _Woman::Lasli:
+  - _Woman::ラズリ:
       comment: outside clothing shop
       coord: [1846.75, 969.25]
-  - _Woman::Claree
+  - _Woman::クラリ
   - .important(Sell all roasted endura carrots)
-  - _Woman::Mellie:
+  - _Woman::メロ:
       comment: by her house and other cooking pot
       notes:
         - goes to sleep at 8pm
         - before 5pm she is at the plum garden or wandering home
       coord: [1903.375, 980.125]
-  - _Woman::Nanna:
+  - _Woman::バナンナ:
       comment: sleeping in her house
       notes: before 5pm she is at the east entrance by the campfire, or wandering home
       coord: [1899.75, 1035.25]

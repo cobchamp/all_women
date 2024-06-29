@@ -8,25 +8,25 @@ Zora:
   - WB to stump:
       coord: [1872, 815.5]
   - BLSS to .place(Zora's Domain), land at the .place(pools below throne room)
-  - _Woman::Finley:
+  - _Woman::フィネ:
       notes: 2 sleeping in the pond
       comment: can take a while to load in
       coord: [3326.5, -525.5]
-  - _Woman::Laruta
+  - _Woman::ルラチュ
   - drop down to main level
-  - _Woman::Marot:
+  - _Woman::マルート:
       comment: in front of general store
       coord: [3323.25, -482.25]
-  - _Woman::Kodah:
+  - _Woman::コダー:
       comment: in the inn
       coord: [3297, -493]
-  - _Woman::Laflat:
-      comment: by the Mipha statue
+  - _Woman::フララット:
+      comment: by the ミファー statue
       coord: [3304.5, -478]
-  - _Woman::Dunma
+  - _Woman::ドゥンマ
   - WB <E to east entrance:
       notes: careful on the railing
-  - _Woman::Gaddison
+  - _Woman::ジョアダ
   - _Segment<Zora>
   - "":
       vars:
