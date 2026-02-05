@@ -12,7 +12,8 @@
     - _PlateauSplits<Tower>:
         icon: tower
         coord: [-670, 1512]
-    - .sub(Get) .important(DLC Ruby) .sub(outside Magnesis Shrine)
+    - .sub(Get) .important(DLC Ruby) .sub(outside Magnesis Shrine) 
+      .sub ((if you don't have DLC installed, you can grab an extra Endura Carrot later))
     - _PlateauSplits<Magnesis>:
         icon: shrine
         coord: [-842, 2273]
