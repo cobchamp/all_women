@@ -16,6 +16,9 @@ Kakariko:
       notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
   - _Woman::Celessa::Watch<Dueling Peaks Stable to Hateno Village>:
       notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
+  - Sell Ruby to Beedle, buy 10 arrows:
+      icon: marker
+      coord: [1721.5, 1963]
   - _Material<Apples, 3>:
       coord: [1742.25, 1943.5]
   - _Woman::Sagessa:
@@ -44,7 +47,6 @@ Kakariko:
   - _Material<Fairy,1>
   - _Material<Blue Nightshade,3>
   - _Material<Endura Carrot,1>:
-      notes: If you do not have DLC installed, grab an extra carrot here and sell it while breaking slots
   - WB to shrine, get another extra carrot or an extra fairy if you need health
   - Taloh Naeg:
       icon: shrine
@@ -71,10 +73,9 @@ Kakariko:
   - Break 6 slots for IST:
       comment: .link([Simulator]https://ist.pistonite.app/?v4=H4sIAAAAAAAAA4VVTY_jNgy9-1dwMEC7CziYzu72MnOaQ3vZHopi_wBt0bZgyTQkOm766wtSTuJkdtucHIpfj--J6kkgBxSqnp6gDX4GXgRwcoCt-CMKgfhIwB04PF2cGmxH8BM0vEwuVz0JPEMeEnNUn7RMIAwNjwwtxvnsMBOmGmaWQ_Cuhs9bSNaYfyg4hDbDTyAU52A1tbYFS8IjBUr50PBaw6-AKfFqgU3IuVSLTa5Lf36qYW22spyavZ_wSqne4dP_6rA2BjxgD1l4hs616h-x11PfwYkXcDz9LDDgkcCFtjZbixP0CTUc6G9JCDS5JSG02qUACow4Qoc-naDjZRL0k9XKFAJ4gXXwgaBJhKOfesiBpUw1LY1NfcUwggyJl37QqfmJfoAuESl2_c6C2ee60LHFfuCkp376eE7z9GSHa6HH2jIwA8ZISVneHF3iuThZ6XJ-20XyjlQUwVGCUmmZlZKuqy8ttunE27yvyb8Lpg_ebSW2z-rx7lc9PsLb799--wv-_OPtG5jhzmOvERr85GBAcDhg3JB8gbz6Tg5Hz4HE_BOPI9bQUqCcsQbhiOb7GXCeA5nyPuicGiWs2EAwjFYnY69xH4t2ObVDDc-wMrsNuPYiDeSZpdav63RMKZwoyw6sovz69vUG3jayxid3oN40equwl63hyfeD5AEdwXNxMc5NUQx9IpSrOVGk2CjvHUysGjcnkqu4N1UPlM60FbkfysEVoWDgASakfnfdjO_i82SkqqePsw7ZWlp9S7sl0jLbnZhLZhPhzBK8K1IlgS5RHoDPEi2n1tr2qaNR3kddSL6DPBCsmPUmo9xX0L8QCcNL9ZAo8pHuBFKDjrsgHzDL6cCRNuH0bPQPPFeXblm3gy7Kl2rg4HZ81EU49bYHX82_6I9w1P1oi-Alx6UHiy2Ol7hrqhvutAXdLM-3jF0orewUQzgv4C1h3mfMryWJrqBXUEmFsZp9Ox6W2WIjCiWPIe87jpzofdt7yDcQrp3sCtf3bV3K73RhD4BNuoZmOcEnXXftmPXZuDwPRtIvu8fiLCqMc-cT1ZAYs2wDKvTciHmjZKer-v4t2u1BS0bu8O4-bGV7do5y1k5loesLwKnJeun1IPoJy1S-mP2CPeORDngOPuAirKaqNGdLptKrrMPsdNOY_ZaoM33bSvpvRIkCo3tXLw_MKn17m83yf1XN9KkUpbzlfYUr99-d2wW4Pr5Z9OWlh4d_AXQXnd2xCAAA)
       notes:
-        - scrap = pepper x3, blue nightshade x3, apple x3. remember to sell one carrot if you do not have DLC installed
+        - scrap = pepper x3, blue nightshade x3, apple x3
   - _Woman::Rola:
-      comment: buy 10 arrows
-      notes: only buy arrows from her, no need to talk directly
+      notes: talk to her on arrow prompt
   - _Cook:
       text: Roast endura carrot
       comment: 1 endura carrot
