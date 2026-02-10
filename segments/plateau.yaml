@@ -5,7 +5,7 @@
           - to: [-939, 1948]
           - to: [-826, 1961]
     - .sub(Get cutscene outside SOR to start time-of-day cycle)
-    - .sub(Get 6 spicy peppers, will need 3 for IST)
+    - .sub(Get 4 hylian shrooms, will need 3 for IST)
     - _PlateauSplits<Bombs>:
         coord: [-445, 1990]
         icon: shrine
